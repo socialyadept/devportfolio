@@ -4,15 +4,15 @@ import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
 import { greeting, settings } from "../../portfolio.js";
 
-const onMouseEnter = (event, color) => {
-  const el = event.target;
-  el.style.backgroundColor = color;
-};
+// const onMouseEnter = (event, color) => {
+//   const el = event.target;
+//   el.style.textDecoration = 'underline';
+// };
 
-const onMouseOut = (event) => {
-  const el = event.target;
-  el.style.backgroundColor = "transparent";
-};
+// const onMouseOut = (event) => {
+//   const el = event.target;
+//   el.style.textDecoration = "none";
+// };
 
 class Header extends Component {
   render() {
@@ -41,8 +41,8 @@ class Header extends Component {
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
+                // onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                // onMouseOut={(event) => onMouseOut(event)}
                 >
                   Home
                 </NavLink>
@@ -53,8 +53,8 @@ class Header extends Component {
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
+                // onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                // onMouseOut={(event) => onMouseOut(event)}
                 >
                   Education
                 </NavLink>
@@ -65,8 +65,8 @@ class Header extends Component {
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
+                // onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                // onMouseOut={(event) => onMouseOut(event)}
                 >
                   Experience
                 </NavLink>
@@ -77,8 +77,8 @@ class Header extends Component {
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
+                // onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                // onMouseOut={(event) => onMouseOut(event)}
                 >
                   Projects
                 </NavLink>
@@ -89,8 +89,8 @@ class Header extends Component {
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
+                // onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                // onMouseOut={(event) => onMouseOut(event)}
                 >
                   Open Source
                 </NavLink>
@@ -101,8 +101,8 @@ class Header extends Component {
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
+                // onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                // onMouseOut={(event) => onMouseOut(event)}
                 >
                   Contact Me
                 </NavLink>

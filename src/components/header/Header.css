@@ -27,7 +27,31 @@
 
 .header li a:hover,
 .header .menu-btn:hover {
-  /* background-color: #A6E1FA; */
+  /* background-color: #a6e1fa; */
+}
+
+.header li a {
+  color: #fff;
+
+  /* display: inline-block; */
+  padding: 0px 20px 10px 20px;
+  position: relative;
+}
+.header li a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 3px;
+  left: 50%;
+  position: absolute;
+  background: #551a8b;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.header li a:hover:after {
+  width: 70%;
+  left: 15%;
 }
 
 .header .logo {
