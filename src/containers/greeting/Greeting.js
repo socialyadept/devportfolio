@@ -28,12 +28,14 @@ export default function Greeting(props) {
               >
                 {greeting.subTitle}
               </p>
+
               <SocialMedia theme={theme} />
+
               <div className="portfolio-repo-btn-div">
                 <Button
                   text="Resume 📝"
                   newTab={true}
-                  href={greeting.portfolio_repository}
+                  href={greeting.resumeLink}
                   theme={theme}
                   className="portfolio-repo-btn"
                 />

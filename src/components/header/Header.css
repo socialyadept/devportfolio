@@ -34,7 +34,9 @@
   color: #fff;
 
   /* display: inline-block; */
-  padding: 0px 20px 10px 20px;
+  /* padding: 0 20px 10px; */
+  margin: 0px 20px 0px 20px;
+  padding: 15px 0 10px;
   position: relative;
 }
 .header li a:after {
@@ -45,13 +47,13 @@
   height: 3px;
   left: 50%;
   position: absolute;
-  background: #551a8b;
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  background: #69687a;
+  transition: width 0.2s ease 0s, left 0.2s ease 0s;
   width: 0;
 }
 .header li a:hover:after {
-  width: 70%;
-  left: 15%;
+  width: 100%;
+  left: 0;
 }
 
 .header .logo {
@@ -64,7 +66,7 @@
 }
 .header .logo-name {
   font-family: "Agustina Regular";
-  font-weight: bold;
+  font-weight: inherit;
   padding: 0 10px;
   /* color: #55198b; */
 }
@@ -172,5 +174,15 @@
 @media (max-width: 960px) and (min-width: 768px) {
   .header {
     font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header li a {
+    max-width: 100%;
+    display: inline-block;
+
+    padding: 5px 0 5px;
+    margin: 0 20px 10px;
   }
 }

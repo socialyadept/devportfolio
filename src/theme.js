@@ -1,6 +1,6 @@
 // theme.js
 export const blackTheme = {
-  body: "#171617",
+  body: "#18191A",
   text: "#ffffff",
   highlight: "#A29F40",
   dark: "#00072D",
@@ -11,9 +11,9 @@ export const blackTheme = {
   headerColor: "#171617",
 };
 
-export const whiteTheme = {
-  body: "#E5E5E5",
-  text: "#14213d",
+export const lightTheme = {
+  body: "#F5F5F5",
+  text: "#333244",
   highlight: "#ffffff",
   dark: "#000000",
   secondaryText: "#5A6377",
@@ -131,4 +131,4 @@ export const orangeTheme = {
   headerColor: "#FF6B3577",
 };
 
-export const chosenTheme = blackTheme;
+export const chosenTheme = lightTheme;

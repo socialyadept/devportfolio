@@ -1,14 +1,20 @@
 .footer-text {
   text-align: center;
   /* color: #868e96; */
-  font-weight: bold;
+  font-weight: inherit;
   font-family: "Google Sans Regular";
 }
 
 .footer-div {
   margin-top: 2rem;
+  margin-bottom: 0;
 }
 
 .footer-text a:hover {
   color: #ee6950 !important;
+}
+
+.footer-text {
+  margin: 0;
+  padding: 30px;
 }
