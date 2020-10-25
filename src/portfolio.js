@@ -112,7 +112,7 @@ const skills = {
       skills: [
         "⚡ Building resposive websites using React-Redux.js | HTML/CSS | Bootstrap | Scemantic UI",
         // "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating optimized application backends in Node.js and Express.js",
+        "⚡ Creating optimized application backends in Node.js, Express.js and PHP",
         "⚡ Experience in usage of Rest APIs in modern programming practices",
       ],
       softwareSkills: [
@@ -176,6 +176,13 @@ const skills = {
         {
           skillName: "Yarn",
           fontAwesomeClassname: "simple-icons:yarn",
+          style: {
+            color: "#2C8EBB",
+          },
+        },
+        {
+          skillName: "PHP",
+          fontAwesomeClassname: "simple-icons:PHP",
           style: {
             color: "#2C8EBB",
           },
@@ -309,7 +316,7 @@ const skills = {
 const competitiveSites = {
   competitiveSites: [
     {
-      siteName: "HackerRank",
+      siteName: "",
       iconifyClassname: "simple-icons:hackerrank",
       style: {
         color: "#2EC866",
