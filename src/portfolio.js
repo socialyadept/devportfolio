@@ -182,9 +182,9 @@ const skills = {
         },
         {
           skillName: "PHP",
-          fontAwesomeClassname: "simple-icons:PHP",
+          fontAwesomeClassname: "simple-icons:php",
           style: {
-            color: "#2C8EBB",
+            color: "black",
           },
         },
       ],
@@ -361,17 +361,17 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - Present",
+      title: "National University of Sciences and Technology, Islamabad",
+      subtitle: "Bachelor's in Computer Sciences",
+      logo_path: "nust-logo.png",
+      alt_name: "NUST - Islamabad",
+      duration: "2018 - Present",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ I have gained deep insights into fundamental software engineering courses like DS, Algorithms, DBMS, OS, Advanced Programming etc.",
+        "⚡ Apart from this, I have done courses on MERN Stack Development, Cloud Computing, Data Science, and Managing successful startups",
+        "⚡ The transparent methodology of providng diversity and building confidence by NUST has helped to develop me as a person not to forget mentioning the community bonding techniques that talks about growth",
       ],
-      website_link: "http://iiitk.ac.in",
+      website_link: "https://nust.edu.pk/",
     },
   ],
 };
@@ -379,13 +379,13 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Machine Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
+      title: "Real-World problem solving and innovation",
+      subtitle: "- Microsoft",
+      logo_path: "microsoft_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+        "https://drive.google.com/file/d/1zODqrRzxxpqLr9tA46TM4j9-4yOcMEOh/view?usp=sharing",
       alt_name: "Stanford University",
-      color_code: "#8C151599",
+      color_code: "#E9E9E9",
     },
     {
       title: "Deep Learning",
