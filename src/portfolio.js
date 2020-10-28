@@ -580,14 +580,14 @@ const experience = {
       title: "Work",
       experiences: [
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - PRESENT",
-          location: "Hyderabad, Telangana",
+          title: "Open Source Developer",
+          company: "Student CodeIn",
+          company_url: "https://scodein.tech/",
+          logo_path: "studentcodein-logo.jpg",
+          duration: "June 2020 - Aug 2020",
+          location: "Remote Work",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+            "Open Source project aiming to connect patients with doctors to help people psychologically and giving them advice. Contributed to the project over MERN as the web stack. Resolved the issues of setting up the express server, contact us rendering, and form validation. I was involved in the team to help them build an optimized architecture. Core benefit: Reaching remote people deprived of good medical facilities.",
           color: "#0879bf",
         },
         {
@@ -618,26 +618,26 @@ const experience = {
       title: "Internships",
       experiences: [
         {
-          title: "Data Science Research Intern",
-          company: "Delhivery Pvt. Ltd.",
-          company_url: "https://www.delhivery.com/",
-          logo_path: "delhivery_logo.png",
-          duration: "May 2019 - Sept 2019",
-          location: "Gurgaon, Haryana",
+          title: "Machine Learning Research Intern",
+          company: "ROMI Lab, SEECS",
+          company_url: "https://romi.seecs.nust.edu.pk/",
+          logo_path: "romi-logo.png",
+          duration: "April 2020 - present",
+          location: "SEECS, NUST",
           description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
+            "I have worked on project of 2D image into 3D using Machine Learning Techniques. There were two objectives: (1) To enuemerate normal prediction of a 2D image. (2) Using ML techniques to draw coordinates on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. The project had the following scope: (a) Object Visualization for Uban Cities. (b) Generating/evaluating building hypothesis",
           color: "#ee3c26",
         },
         {
-          title: "Data Science Intern",
-          company: "Intel Indexer LLC",
+          title: "Software Quality Assurance Intern",
+          company: "Afiniti",
           company_url:
-            "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-          logo_path: "intel_logo.jpg",
+            "https://www.afiniti.com/",
+          logo_path: "afiniti-vector-logo.png",
           duration: "Nov 2018 - Dec 2018",
           location: "Work From Home",
           description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
+            "Worked as a Software Quality Assurance Intern for a recently developed software by Afiniti in a group of 70+ students from all backgrounds under flexible timings during the tenure. The work helped me build strong analytical approach, and the agile feedbacks and suggestions improved the product to a greater extent. Gained keen knowledge of working under big corporate and been able to blend into their working environment.",
           color: "#0071C5",
         },
       ],

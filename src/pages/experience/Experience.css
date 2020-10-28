@@ -1,5 +1,5 @@
 .experience-main {
-  width: 100vw;
+  width: 100%;
 }
 
 .basic-experience {
@@ -46,12 +46,12 @@
 }
 
 .experience-header-detail-text {
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 28px;
   margin-top: 0px;
   margin-left: 20px;
   margin-right: 20px;
-  font-family: "Google Sans Medium";
+  font-family: "Google Sans";
 }
 
 @media (max-width: 1380px) {
