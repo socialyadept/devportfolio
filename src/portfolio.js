@@ -316,46 +316,47 @@ const skills = {
 const competitiveSites = {
   competitiveSites: [
     {
-      siteName: "",
-      iconifyClassname: "simple-icons:hackerrank",
+      siteName: "Coursera",
+      iconifyClassname: "simple-icons:coursera",
       style: {
-        color: "#2EC866",
+        color: "#3A67AE",
       },
-      profileLink: "https://www.hackerrank.com/layman_brother",
+      profileLink: "",
     },
     {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
+      siteName: "Udemy",
+      iconifyClassname: "simple-icons:udemy",
       style: {
-        color: "#5B4638",
+        color: "#E65050",
       },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
+      profileLink: "",
     },
     {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
+      siteName: "AWS",
+      iconifyClassname: "logos:aws",
       style: {
         color: "#1F8ACB",
       },
-      profileLink: "http://codeforces.com/profile/layman_brother",
+      profileLink: "#",
     },
     {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
+      siteName: "Qwiklabs",
+      iconifyClassname: "simple-icons:qwiklabs",
       style: {
-        color: "#323754",
+        color: "#EDC70E",
       },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
+      profileLink: "https://www.qwiklabs.com/public_profiles/8692b167-1af9-4c81-a795-789a654b1113",
     },
     {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
+      siteName: "Microsoft",
+      iconifyClassname: "logos:microsoft-windows",
       style: {
-        color: "#20BEFF",
+        color: "#fda",
       },
-      profileLink: "https://www.kaggle.com/laymanbrother",
+      profileLink: "https://docs.microsoft.com/en-us/users/muhammadkumail/",
     },
   ],
+
 };
 
 const degrees = {
@@ -368,10 +369,23 @@ const degrees = {
       duration: "2018 - Present",
       descriptions: [
         "⚡ I have gained deep insights into fundamental software engineering courses like DS, Algorithms, DBMS, OS, Advanced Programming etc.",
-        "⚡ Apart from this, I have done courses on MERN Stack Development, Cloud Computing, Data Science, and Managing successful startups",
         "⚡ The transparent methodology of providng diversity and building confidence by NUST has helped to develop me as a person not to forget mentioning the community bonding techniques that talks about growth",
+        "⚡ Apart from this, I have done courses on MERN Stack Development, Cloud Computing, Data Science, and Managing successful startups",
       ],
       website_link: "https://nust.edu.pk/",
+    },
+    {
+      title: "Hamza Army Public School and College, Rawalpindi",
+      subtitle: "Intermediate and Primary",
+      logo_path: "haps-logo.svg",
+      alt_name: "HAPSAC",
+      duration: "2006 - 2018",
+      descriptions: [
+        "⚡ Shortlisted as House Captain for school disciplines for two times in a row",
+        "⚡ Swiftly conducted sports and other extra curricular events in college",
+        "⚡ Was awarded as 'Pride of Hamza' which is the highest ranked award in the college in my final year",
+      ],
+      website_link: "http://www.hamza.edu.pk/",
     },
   ],
 };
@@ -384,107 +398,172 @@ const certifications = {
       logo_path: "microsoft_logo.png",
       certificate_link:
         "https://drive.google.com/file/d/1zODqrRzxxpqLr9tA46TM4j9-4yOcMEOh/view?usp=sharing",
-      alt_name: "Stanford University",
+      alt_name: "Microsoft",
+      color_code: "#E48564",
+    },
+    {
+      title: "Managing the Company of the Future",
+      subtitle: "- Prof. Julian Birkinshow",
+      logo_path: "uol-logo.png",
+      certificate_link:
+        "https://coursera.org/share/a04db611f13675addbc9ed77198d9528",
+      alt_name: "univeristy of London",
       color_code: "#E9E9E9",
     },
     {
-      title: "Deep Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "deeplearning_ai_logo.png",
+      title: "Introduction to Serverless Deployment",
+      subtitle: "- AWS Training",
+      logo_path: "aws-logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
+        "https://drive.google.com/file/d/1bJu0_lVEKHTASH-g02tNgwzz9F3_7FzS/view?usp=sharing",
+      alt_name: "AWS",
+      color_code: "#222E3C",
     },
     {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
+      title: "Deep Dive into DocumentDB",
+      subtitle: "- AWS Training",
+      logo_path: "aws-logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
+        "https://www.aws.training/Transcript/CompletionCertificateHtml?transcriptid=ImgRkZjt5EWH9MnPQ5dDow2",
+      alt_name: "AWS",
+      color_code: "#222E3C",
+    },
+
+    {
+      title: "Intro to ML: Language Processing",
+      subtitle: "- Qwiklabs",
+      logo_path: "gcp_logo.png",
+      certificate_link:
+        "https://www.qwiklabs.com/public_profiles/8692b167-1af9-4c81-a795-789a654b1113",
+      alt_name: "Qwiklabs",
+      color_code: "#8AB2F4",
     },
     {
       title: "Data Science",
       subtitle: "- Alex Aklson",
       logo_path: "ibm_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
+        "https://www.youracclaim.com/badges/053e0af0-c9be-4c47-8d1d-198ebe991e75/linked_in_profile",
       alt_name: "IBM",
       color_code: "#1F70C199",
     },
     {
-      title: "Big Data",
-      subtitle: "- Kim Akers",
-      logo_path: "microsoft_logo.png",
+      title: "Intro to ML: image Processing",
+      subtitle: "- Qwiklabs",
+      logo_path: "gcp_logo.png",
       certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-      alt_name: "Microsoft",
-      color_code: "#D83B0199",
-    },
-    {
-      title: "Advanced Data Science",
-      subtitle: "- Romeo Kienzler",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-      alt_name: "IBM",
+        "https://www.qwiklabs.com/public_profiles/8692b167-1af9-4c81-a795-789a654b1113",
+      alt_name: "Qwiklabs",
       color_code: "#1F70C199",
     },
     {
-      title: "Advanced ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
+      title: "Kubernetes in Google Cloud",
+      subtitle: "- Qwiklabs",
+      logo_path: "gcp_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-      alt_name: "Google",
+        "https://www.qwiklabs.com/public_profiles/8692b167-1af9-4c81-a795-789a654b1113",
+      alt_name: "GCP",
       color_code: "#0C9D5899",
     },
     {
-      title: "DL on Tensorflow",
-      subtitle: "- Laurence Moroney",
-      logo_path: "deeplearning_ai_logo.png",
+      title: "Performance Assessment at UNICEF",
+      subtitle: "- UNICEF",
+      logo_path: "UNICEF-logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
+        "https://drive.google.com/file/d/11kl0jHW2IWN2O3Nq2lBJTd6cWgqI1eJl/view?usp=sharing",
+      alt_name: "UNICEF",
+      color_code: "#E9E9E7",
     },
     {
-      title: "Fullstack Development",
-      subtitle: "- Jogesh Muppala",
-      logo_path: "coursera_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-      alt_name: "Coursera",
-      color_code: "#2A73CC",
-    },
-    {
-      title: "Kuberenetes on GCP",
+      title: "Intermediate ML: TensorFlow on GCP",
       subtitle: "- Qwiklabs",
       logo_path: "gcp_logo.png",
       certificate_link:
-        "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
+        "https://www.qwiklabs.com/public_profiles/8692b167-1af9-4c81-a795-789a654b1113",
+      alt_name: "Qwiklabs",
+      color_code: "#6AC097",
+    },
+    {
+      title: "Advanced ML on GCP",
+      subtitle: "- Qwiklabs",
+      logo_path: "google_logo.png",
+      certificate_link:
+        "https://www.qwiklabs.com/public_profiles/8692b167-1af9-4c81-a795-789a654b1113",
+      alt_name: "Google",
+      color_code: "#4285F499",
+    },
+    {
+      title: "Amazon ElastiCache Service Primer",
+      subtitle: "- AWS Training",
+      logo_path: "aws-logo.png",
+      certificate_link:
+        "https://www.aws.training/Transcript/CompletionCertificateHtml?transcriptid=-onl1wc0xEC_ZGYcLyBBkw2",
+      alt_name: "AWS",
+      color_code: "#222E3C",
+    },
+    // {
+    //   title: "Cryptography",
+    //   subtitle: "- Saurabh Mukhopadhyay",
+    //   logo_path: "nptel_logo.png",
+    //   certificate_link:
+    //     "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
+    //   alt_name: "NPTEL",
+    //   color_code: "#FFBB0099",
+    // },
+    {
+      title: "Machine Learning APIs",
+      subtitle: "- Qwiklabs",
+      logo_path: "gcp_logo.png",
+      certificate_link:
+        "https://www.qwiklabs.com/public_profiles/8692b167-1af9-4c81-a795-789a654b1113",
       alt_name: "GCP",
       color_code: "#4285F499",
     },
     {
-      title: "Cryptography",
-      subtitle: "- Saurabh Mukhopadhyay",
-      logo_path: "nptel_logo.png",
+      title: "Machine Learning in the Cloud with AWS Batch",
+      subtitle: "- AWS Training",
+      logo_path: "aws-logo.png",
       certificate_link:
-        "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-      alt_name: "NPTEL",
-      color_code: "#FFBB0099",
+        "https://www.aws.training/Transcript/CompletionCertificateHtml?transcriptid=VG0IjyOVVUigjOdlbsY4rw2",
+      alt_name: "AWS",
+      color_code: "#222E3C",
     },
     {
-      title: "Cloud Architecture",
+      title: "BigQuery Basics for Data Analysts",
       subtitle: "- Qwiklabs",
       logo_path: "gcp_logo.png",
       certificate_link:
-        "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
+        "https://www.qwiklabs.com/public_profiles/8692b167-1af9-4c81-a795-789a654b1113",
       alt_name: "GCP",
       color_code: "#4285F499",
+    },
+    {
+      title: "Amazon DynamoDB Service Primer",
+      subtitle: "- AWS Training",
+      logo_path: "aws-logo.png",
+      certificate_link:
+        "https://www.aws.training/Transcript/CompletionCertificateHtml?transcriptid=djjRwh9lakiGZ13wZ7h1dA2",
+      alt_name: "AWS",
+      color_code: "#222E3C",
+    },
+
+    {
+      title: "Data Science on Google Cloud",
+      subtitle: "- Qwiklabs",
+      logo_path: "gcp_logo.png",
+      certificate_link:
+        "https://www.qwiklabs.com/public_profiles/8692b167-1af9-4c81-a795-789a654b1113",
+      alt_name: "GCP",
+      color_code: "#4285F499",
+    },
+    {
+      title: "AWS Foundations: Machine Learning Basics",
+      subtitle: "- AWS Training",
+      logo_path: "aws-logo.png",
+      certificate_link:
+        "https://www.aws.training/Transcript/CompletionCertificateHtml?transcriptid=yDSgbKsl_kqxW_Pxq2LVEQ2",
+      alt_name: "AWS",
+      color_code: "#222E3C",
     },
   ],
 };
@@ -494,7 +573,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "I have worked with many evolving startups as a Full Stack Developer, Designer and Software Architect. I have also worked with some well established companies as Software Quality Assurance Trainee. I love giving back to the people what I have learnt. So, organising events and fundraising is what I do week in week out. From Personally conducting hackathons to mentoring students as a Microsoft representative and creating empowering communities that benefits more than 2K people accross the country on a daily basis is why I am involved with many opensource communities as a representative.",
   header_image_path: "experience.svg",
   sections: [
     {
