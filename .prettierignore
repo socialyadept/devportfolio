@@ -3,4 +3,5 @@ images
 node_modules
 build
 public
-*.json
+package.json
+package-lock.json

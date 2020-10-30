@@ -8,10 +8,7 @@ export default function TopButton({ theme }) {
   }
 
   function scrollFunction() {
-    if (
-      document.body.scrollTop > 30 ||
-      document.documentElement.scrollTop > 30
-    ) {
+    if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
       document.getElementById("topButton").style.visibility = "visible";
     } else {
       document.getElementById("topButton").style.visibility = "hidden";

@@ -111,6 +111,7 @@ const skills = {
       fileName: "FullStackImg",
       skills: [
         "⚡ Building resposive websites using React-Redux.js | HTML/CSS | Bootstrap | Scemantic UI",
+        "⚡ Creating Single page rendering applications using Redux and HooksJs",
         // "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
         "⚡ Creating optimized application backends in Node.js, Express.js and PHP",
         "⚡ Experience in usage of Rest APIs in modern programming practices",
@@ -590,28 +591,28 @@ const experience = {
             "Open Source project aiming to connect patients with doctors to help people psychologically and giving them advice. Contributed to the project over MERN as the web stack. Resolved the issues of setting up the express server, contact us rendering, and form validation. I was involved in the team to help them build an optimized architecture. Core benefit: Reaching remote people deprived of good medical facilities.",
           color: "#0879bf",
         },
-        {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
-          description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-          color: "#9b1578",
-        },
-        {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
-          description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-          color: "#fc1f20",
-        },
+        // {
+        //   title: "Android and ML Developer",
+        //   company: "Muffito Incorporation",
+        //   company_url: "https://www.linkedin.com/company/muffito-inc/about/",
+        //   logo_path: "muffito_logo.png",
+        //   duration: "May 2018 - Oct 2018",
+        //   location: "Pune, Maharashtra",
+        //   description:
+        //     "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
+        //   color: "#9b1578",
+        // },
+        // {
+        //   title: "Android Developer",
+        //   company: "FreeCopy Pvt. Ltd.",
+        //   company_url: "https://www.linkedin.com/company/freecopy/about/",
+        //   logo_path: "freecopy_logo.png",
+        //   duration: "Nov 2017 - Dec 2017",
+        //   location: "Ahmedabad, Gujarat",
+        //   description:
+        //     "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
+        //   color: "#fc1f20",
+        // },
       ],
     },
     {
@@ -634,10 +635,34 @@ const experience = {
           company_url:
             "https://www.afiniti.com/",
           logo_path: "afiniti-vector-logo.png",
-          duration: "Nov 2018 - Dec 2018",
+          duration: "August 2020 - September 2020",
           location: "Work From Home",
           description:
             "Worked as a Software Quality Assurance Intern for a recently developed software by Afiniti in a group of 70+ students from all backgrounds under flexible timings during the tenure. The work helped me build strong analytical approach, and the agile feedbacks and suggestions improved the product to a greater extent. Gained keen knowledge of working under big corporate and been able to blend into their working environment.",
+          color: "#0071C5",
+        },
+        {
+          title: "Graphic Designer Intern",
+          company: "Vyro.ai",
+          company_url:
+            "https://www.vyro.ai/",
+          logo_path: "vyro.ai.png",
+          duration: "Feb 2019 - Apr 2019",
+          location: "TIC, NUST",
+          description:
+            "Mainly aimed to create face models for a photo editing mobile app using AI. The face features were designed using photoshop and illustrator. Used scripting for automation of rendering. The automation reduced the office overhead and labour by 60%. The initial boost helped the app to attain 1M+ downloads in the play store within a year. So far Vyro has more than 4 apps in play store with approximately 2M+ downloads.",
+          color: "#0071C5",
+        },
+        {
+          title: "Digital Marketing Intern",
+          company: "Friends Corporation",
+          company_url:
+            "https://www.friendshome.pk/",
+          logo_path: "friendshome.png",
+          duration: "Jun 2016 - Jul 2016",
+          location: "Murree Road, Rawalpindi",
+          description:
+            "Analyzed data from 25000+ monthly active users and used outputs to guide marketing and product strategies. Increased average online engagement time by 2x, 25% decrease in drop off rate, and 3x shares on social media.",
           color: "#0071C5",
         },
       ],
@@ -646,48 +671,49 @@ const experience = {
       title: "Volunteerships",
       experiences: [
         {
-          title: "Google Explore ML Facilitator",
-          company: "Google",
-          company_url: "https://about.google/",
-          logo_path: "google_logo.png",
-          duration: "June 2019 - April 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
-          color: "#4285F4",
-        },
-        {
-          title: "Microsoft Student Partner",
+          title: "Microsoft Learn Student Ambassador",
           company: "Microsoft",
-          company_url: "https://www.microsoft.com/",
+          company_url: "https://studentambassadors.microsoft.com/",
           logo_path: "microsoft_logo.png",
-          duration: "Aug 2019 - May 2020",
-          location: "Hyderabad, Telangana",
+          duration: "Aug 2020 - present",
+          location: "NUST, Islamabad",
           description:
-            "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
+            "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops of GitHub and seminars to teach Cloud Computing concepts to students.",
           color: "#D83B01",
         },
         {
-          title: "Mozilla Campus Captain",
-          company: "Mozilla",
-          company_url: "https://www.mozilla.org/",
-          logo_path: "mozilla_logo.png",
-          duration: "Oct 2019 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
+
+          title: "Developer Student Club Lead - NUST",
+          company: "Google Developers",
+          company_url: "https://dsc.community.dev/national-university-of-sciences-and-technology/",
+          logo_path: "dscnust-short.png",
+          duration: "July 2020 - present",
+          location: "NUST, Islamabad",
           description:
-            "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
+            "2nd ever lead from NUST and Pakistani DSC Chapter. Lead the club for one of the most prestigious universities in Pakistan. Conducted tonnes of events in order to make student the next big assests in the market. The programs involves sharing knowledge, learning and community building using the power of Google and its resources. Finally, mentoring people to become the next Google Developer Expert and continuining the chain.",
+          color: "#4285F4",
+        },
+        {
+          title: "AWS Educate Cloud Ambassador",
+          company: "AWS Educate",
+          company_url: "https://aws.amazon.com/education/awseducate/cloud-ambassador-program/",
+          logo_path: "awsblack.png",
+          duration: "Apr 2020 - present",
+          location: "NUST, Islamabad",
+          description:
+            "Enabling students to learn the cloud based cooporate technology usage using AWS. Made more than 50 students a part of AWS Educate program. Conducted workshops and Community Day event powered by AWS in Pakistan. Found AWS community of Pakistan, the first of its kind that helps more than 1K students on a weekly basis to learn AWS.",
           color: "#000000",
         },
         {
-          title: "Developer Students Club Member",
-          company: "DSC IIITDM Kurnool",
+          title: "Global Leader",
+          company: "Millennium Fellowship Network",
           company_url:
-            "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-          logo_path: "dsc_logo.png",
-          duration: "Jan 2018 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
+            "https://www.millenniumfellows.org/fellow/2019/nust-pk/muhammad-kumail",
+          logo_path: "mcn-logo.png",
+          duration: "Jul 2019 - Jun 2020",
+          location: "NUST, Islamabad",
           description:
-            "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
+            'Leadership development program presented by the United Nations Academic Impact and MCN. Only 6% of campuses in 16 nations selected based on the calibre of applications. Over the semester, led the "Street School" project, helping 56 children ages 4-11 gain access to mentorship and 86% improved their lifestyle. Engaged in webinars with Katie Strock, Gates Foundation, Eric Knee, Stanford Social Innovation Review, Sam Vaghar. Mainly targeted SDG# 3: Good Health and Well Being, SDG#4: Quality Education, SDG#5: Gender Equality. Engaged in sessions to cultivate core values of empathy, humility, inclusion in leadership and social impact. Honed skills including how to write a budget and set and meet strategic goals. Helped build a community of practice - sharing best practices across organizations. Later our project was listed among the top 5 projects of the fellowship program. Collaborated with other non-profit organizations to help maximum people from back areas to come up. Later, I was selected as the program recruiter which enabled me to select the future global entrepreneuers on the basis of merit. Finally, I was offered to become the program mentor for my university chapter.',
           color: "#0C9D58",
         },
         {
@@ -695,10 +721,32 @@ const experience = {
           company: "Github",
           company_url: "https://github.com/",
           logo_path: "github_logo.png",
-          duration: "July 2019 - PRESENT",
+          duration: "October 2020 - PRESENT",
           location: "Work From Home",
           description:
-            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating peoper documentation for project.",
+            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like StudentCodeIn, Hacktoberfest, flutter mobile apps, and open source React applications. These contributions include bug fixes, feature requests and formulating peoper documentation for project.",
+          color: "#181717",
+        },
+        {
+          title: "Executive Committee Member",
+          company: "Nust International Model United Nations",
+          company_url: "https://www.facebook.com/nimunpk/",
+          logo_path: "srp-logo.png",
+          duration: "Sep 2019 - Jan 2020",
+          location: "NUST, Islamabad",
+          description:
+            `Lead Social Responsibility program by NIMUN. Collaborated NIMUN with MCN in order to attain the common goal of making a difference in the lives of the people in need. \nStrived for: \nSDG# 3: Good Health and Well Being – Lives Impacted 20+. \nSDG#4: Quality Education – Lives Impacted 50+. \nSDG#5: Gender Equality – Lives Impacted 30+. \nSDG#12 Responsible Consumption and Production – Lives Impacted 100+.`,
+          color: "#181717",
+        },
+        {
+          title: "Team Lead Social Media Marketing",
+          company: "Association of Computing and Machinery, NUST",
+          company_url: "https://www.facebook.com/NUST.ACM",
+          logo_path: "acmnust.jpg",
+          duration: "Nov 2018 - Sep 2020",
+          location: "SEECS, NUST, Islamabad",
+          description:
+            `Conducted more than 20 events throughout the tenure including HackACM, Github workshops, and exclusive programming events. Engaged more than 100K people across all social media handles of ACM-NUST. Headed major events like: Redbulll University Outreach, Media Week, Facebook Developer's Workshop, MLH Local Hack Day`,
           color: "#181717",
         },
       ],
@@ -710,7 +758,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects makes use of vast variety of latest technology tools including ReactJs, Hooks, Nodejs, ExpressJs, MongoDB, HTML/CSS, C/C++, Andriod Apps in Java, and Python. My best experience is to create Full stack applications and deploy them to web applications using cloud infrastructure.",
   avatar_image_path: "projects_image.svg",
 };
 

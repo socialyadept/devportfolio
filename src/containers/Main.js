@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route, Switch, HashRouter } from "react-router-dom";
+import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
 import Home from "../pages/home/HomeComponent";
 import Splash from "../pages/splash/Splash";
 import Education from "../pages/education/EducationComponent";
@@ -7,6 +7,7 @@ import Experience from "../pages/experience/Experience";
 import Opensource from "../pages/opensource/Opensource";
 import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
+import Blogs from "../pages/blogs/BlogsComponent"
 import { settings } from "../portfolio.js";
 
 export default class Main extends Component {
@@ -16,7 +17,7 @@ export default class Main extends Component {
     if (settings.isSplash) {
       return (
         <div>
-          <HashRouter basename="/">
+          <Router>
             <Switch>
               <Route
                 path="/"
@@ -66,14 +67,20 @@ export default class Main extends Component {
                   <Projects {...props} theme={this.props.theme} />
                 )}
               />
+              <Route
+                path="/blogs"
+                render={(props) => (
+                  <Blogs {...props} theme={this.props.theme} />
+                )}
+              />
             </Switch>
-          </HashRouter>
+          </Router>
         </div>
       );
     } else {
       return (
         <div>
-          <HashRouter basename="/">
+          <Router>
             <Switch>
               <Route
                 path="/"
@@ -109,6 +116,12 @@ export default class Main extends Component {
                   <Contact {...props} theme={this.props.theme} />
                 )}
               />
+              <Route
+                path="/blogs"
+                render={(props) => (
+                  <Blogs {...props} theme={this.props.theme} />
+                )}
+              />
               {/* <Route
 							path="/splash"
 							render={(props) => (
@@ -125,7 +138,7 @@ export default class Main extends Component {
                 )}
               />
             </Switch>
-          </HashRouter>
+          </Router>
         </div>
       );
     }
