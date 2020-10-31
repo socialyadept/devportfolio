@@ -7,7 +7,8 @@ import Experience from "../pages/experience/Experience";
 import Opensource from "../pages/opensource/Opensource";
 import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
-import Blogs from "../pages/blogs/BlogsComponent"
+import Blogs from "../pages/blogs/BlogsComponent";
+import Error from "../pages/error/ErrorComponent";
 import { settings } from "../portfolio.js";
 
 export default class Main extends Component {
@@ -89,6 +90,7 @@ export default class Main extends Component {
               />
               <Route
                 path="/home"
+                exact
                 render={(props) => <Home {...props} theme={this.props.theme} />}
               />
               <Route
@@ -100,24 +102,28 @@ export default class Main extends Component {
               />
               <Route
                 path="/education"
+                exact
                 render={(props) => (
                   <Education {...props} theme={this.props.theme} />
                 )}
               />
               <Route
                 path="/opensource"
+                exact
                 render={(props) => (
                   <Opensource {...props} theme={this.props.theme} />
                 )}
               />
               <Route
                 path="/contact"
+                exact
                 render={(props) => (
                   <Contact {...props} theme={this.props.theme} />
                 )}
               />
               <Route
                 path="/blogs"
+                exact
                 render={(props) => (
                   <Blogs {...props} theme={this.props.theme} />
                 )}
@@ -133,8 +139,14 @@ export default class Main extends Component {
 						/> */}
               <Route
                 path="/projects"
+                exact
                 render={(props) => (
                   <Projects {...props} theme={this.props.theme} />
+                )}
+              />
+              <Route
+                render={(props) => (
+                  <Error {...props} theme={this.props.theme} />
                 )}
               />
             </Switch>

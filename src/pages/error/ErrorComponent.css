@@ -1,0 +1,35 @@
+html,
+body {
+  margin: 0px;
+}
+
+.error-main {
+  margin: 10rem 0;
+  width: 100vw;
+  height: 100%;
+  padding: 2rem;
+  padding-top: 0;
+  font-family: "Google sans";
+}
+
+.error-img {
+  width: 60px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.error-heading {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 1rem;
+  max-width: 100%;
+}
+
+.error-url {
+  text-decoration: none;
+  color: #349ef3;
+}
+.error-url:hover {
+  color: brown;
+  transition: 1s ease;
+}
