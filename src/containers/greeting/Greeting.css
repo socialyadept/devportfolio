@@ -10,7 +10,6 @@
   padding: 20px 10px;
   margin: 0px auto;
   margin-top: 2rem;
-  
 }
 
 .myimage {
@@ -25,7 +24,6 @@
 
 .greeting-main {
   display: flex;
-
 }
 
 .greeting-main > * {
@@ -42,7 +40,7 @@
   font-size: 55px;
   line-height: 1.1;
   font-family: "Google Sans";
-  color: #133B4F;
+  color: #133b4f;
 }
 
 .celeb {
@@ -92,13 +90,20 @@
     text-align: center;
   }
   .greeting-text-p {
-    font-size: 16px;
+    font-size: 21px !important;
     margin-right: 0px;
     line-height: normal;
     text-align: center;
   }
+  .greet-main {
+    margin-top: 0;
+  }
+
   .greeting-main {
-    display: block;
+    flex-direction: column;
+  }
+  .greeting-text-div {
+    order: 2;
   }
 
   .portfolio-repo-btn-div {
@@ -109,11 +114,12 @@
   .greeting-image-div > * {
     max-width: 80%;
     height: auto;
-    margin:auto;
+    margin: auto;
+    order: 1;
   }
 
   .myimage {
-    margin:auto;
+    margin: auto;
     display: block;
   }
 }

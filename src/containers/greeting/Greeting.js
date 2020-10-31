@@ -5,7 +5,7 @@ import Button from "../../components/button/Button";
 import { greeting, socialMediaLinksHome } from "../../portfolio";
 import { Fade } from "react-reveal";
 import FeelingProud from "./FeelingProud";
-import socialMedia from "../../components/socialMedia/SocialMedia";
+
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -42,9 +42,9 @@ export default function Greeting(props) {
                 />
               </div>
               {/* <div className="button-greeting-div">
-              <Button text="Contact me" href="#contact" />
-              <Button text="See my resume" newTab={true} href={greeting.resumeLink} />
-            </div> */}
+                <Button text="Contact me" href="#contact" theme={theme} />
+                <Button text="See my resume" newTab={true} href={greeting.resumeLink} theme={theme} />
+              </div> */}
             </div>
           </div>
           <div className="greeting-image-div">

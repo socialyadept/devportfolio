@@ -4,7 +4,7 @@ import Footer from "../../components/footer/Footer";
 import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
 import Button from "../../components/button/Button";
 import TopButton from "../../components/topButton/TopButton";
-import { Fade } from "react-reveal";
+import { Zoom } from "react-reveal";
 import { projectsHeader } from "../../portfolio.js";
 import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
@@ -17,7 +17,7 @@ class Projects extends Component {
       <div className="projects-main">
         <Header theme={theme} />
         <div className="basic-projects">
-          <Fade bottom duration={2000} distance="40px">
+          <Zoom duration={1000} >
             <div className="projects-heading-div">
               <div className="projects-heading-img-div">
                 {/* <img
@@ -41,7 +41,7 @@ class Projects extends Component {
                 </p>
               </div>
             </div>
-          </Fade>
+          </Zoom>
         </div>
         <div className="repo-cards-div-main">
           {ProjectsData.data.map((repo) => {

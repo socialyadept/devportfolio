@@ -8,7 +8,7 @@ import CompetitiveSites from "../../components/competitiveSites/CompetitiveSites
 import EducationImg from "./EducationImg";
 import { competitiveSites } from "../../portfolio";
 import "./EducationComponent.css";
-import { Fade } from "react-reveal";
+import { Zoom } from "react-reveal";
 
 class Education extends Component {
   render() {
@@ -17,7 +17,7 @@ class Education extends Component {
       <div className="education-main">
         <Header theme={this.props.theme} />
         <div className="basic-education">
-          <Fade bottom duration={2000} distance="40px">
+          <Zoom duration={1000} >
             <div className="heading-div">
               <div className="heading-img-div">
                 {/* <img
@@ -37,7 +37,7 @@ class Education extends Component {
                 <CompetitiveSites logos={competitiveSites.competitiveSites} />
               </div>
             </div>
-          </Fade>
+          </Zoom>
           <Educations theme={this.props.theme} />
           <Certifications theme={this.props.theme} />
         </div>

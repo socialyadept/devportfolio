@@ -4,16 +4,12 @@ import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
-import BlogsImg from "../blogs/BlogsImg";
 import AddressImg from "./AddressImg";
-import { Fade } from "react-reveal";
+import { Zoom } from "react-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData, blogs, socialMediaLinks } from "../../portfolio.js";
 
 const ContactData = contactPageData.contactSection;
-const blogSection = blogs
-const addressSection = contactPageData.addressSection;
-const phoneSection = contactPageData.phoneSection;
 
 class Contact extends Component {
   render() {
@@ -22,7 +18,7 @@ class Contact extends Component {
       <div className="contact-main">
         <Header theme={theme} />
         <div className="basic-contact">
-          <Fade bottom duration={1000} distance="40px">
+          <Zoom duration={1000} >
             <div className="contact-heading-div">
               <div className="contact-heading-img-div">
                 {/* <img
@@ -55,7 +51,7 @@ class Contact extends Component {
                 </div>
               </div>
             </div>
-          </Fade>
+          </Zoom>
         </div>
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
