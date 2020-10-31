@@ -1,0 +1,16 @@
+{
+  "short_name": "MKFolio",
+  "name": "MKFolio",
+  "icons": [
+  {
+   "src": "\/favicon.png",
+   "sizes": "48x48",
+   "type": "image\/png",
+   "density": "1.0"
+  },
+ ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
