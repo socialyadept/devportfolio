@@ -2,9 +2,10 @@ import React from "react";
 import "./Greeting.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
-import { greeting } from "../../portfolio";
+import { greeting, socialMediaLinksHome } from "../../portfolio";
 import { Fade } from "react-reveal";
 import FeelingProud from "./FeelingProud";
+import socialMedia from "../../components/socialMedia/SocialMedia";
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -29,7 +30,7 @@ export default function Greeting(props) {
                 {greeting.subTitle}
               </p>
 
-              <SocialMedia theme={theme} />
+              <SocialMedia theme={theme} socialMediaLinks={socialMediaLinksHome} />
 
               <div className="portfolio-repo-btn-div">
                 <Button

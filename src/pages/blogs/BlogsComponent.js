@@ -6,15 +6,13 @@ import "./Blog.css"
 import Button from "../../components/button/Button";
 import BlogsImg from "./BlogsImg";
 import { Fade } from "react-reveal";
-import { greeting, blogs, contactPageData } from "../../portfolio";
+import { blogs } from "../../portfolio";
 import BlogCard from "../../components/blogCard/BlogCard";
 
 class BlogsComponent extends Component {
     render() {
-        const blogSection = contactPageData.blogSection;
         const theme = this.props.theme;
 
-        console.log(this.props.theme);
         return (
             <div className="blogs-main">
                 <Header theme={this.props.theme} />
@@ -30,39 +28,40 @@ class BlogsComponent extends Component {
                                 <div className="blog-heading-div">
                                     <div className="blog-heading-text-div">
                                         <h1 className="blog-heading-text" style={{ color: theme.text }}>
-                                            {blogSection["title"]}
+                                            {blogs["title"]}
                                         </h1>
                                         <p
                                             className="blog-header-detail-text subTitle"
                                             style={{ color: theme.secondaryText }}
                                         >
-                                            {blogSection["subtitle"]}
+                                            {blogs["subtitle"]}
                                         </p>
                                         <div className="blogsite-btn-div">
                                             <Button
-                                                text="Visit My Blogsite"
+                                                text="Visit back home"
                                                 newTab={true}
-                                                href={blogSection.link}
+                                                href={blogs.link}
                                                 theme={theme}
                                             />
                                         </div>
                                     </div>
                                     <div className="blog-heading-img-div">
                                         {/* <img
-											src={require(`../../assests/images/${blogSection["avatar_image_path"]}`)}
+											src={require(`../../assests/images/${blogs["avatar_image_path"]}`)}
 											alt=""
 										/> */}
                                         <BlogsImg theme={theme} />
                                     </div>
                                 </div>
                             </Fade>
-                            <Fade bottom duration={1000} distance="40px">
+                            {/* Blogs card */}
+                            {/* <Fade bottom duration={1000} distance="40px">
                                 <div className="blogs-card-div">
                                     {blogs.section.map((blog) => {
                                         return <BlogCard blog={blog} theme={theme} />
                                     })}
                                 </div>
-                            </Fade>
+                            </Fade> */}
                         </div>
                     </div>
                 </div>

@@ -62,6 +62,45 @@ const socialMediaLinks = [
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
 ];
+const socialMediaLinksHome = [
+  {
+    name: "Github",
+    link: "https://github.com/mkumail1",
+    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
+    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+  },
+  {
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/mkumail1/",
+    fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
+    backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
+  },
+  {
+    name: "YouTube",
+    link: "https://www.youtube.com/channel/UCdbkGxMPdxVERO0FaYGo4qg",
+    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
+    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
+  },
+  {
+    name: "Twitter",
+    link: "https://twitter.com/iamkumaail",
+    fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
+    backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
+  },
+  {
+    name: "Gmail",
+    link: "mailto:mkumailofficial@gmail.com",
+    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
+    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+  },
+
+  {
+    name: "Facebook",
+    link: "https://www.facebook.com/iamkumaail",
+    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
+    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
+  },
+];
 
 const skills = {
   data: [
@@ -763,7 +802,11 @@ const projectsHeader = {
 };
 
 const blogs = {
-  title: "Here's what you need to know that I have written so far :)",
+  title: "Blogs",
+  subtitle:
+    "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character. This part is coming soon feel free to reach out again for follow up 😉",
+  link: "/home",
+  avatar_image_path: "blogs_image.svg",
   section: [
     {
       title: "My first ever blog",
@@ -794,13 +837,6 @@ const contactPageData = {
     description:
       "I am available on almost every social media. And here is the fun part, I'm very responsive, so feel free to reach me out incase of any Freelance work or any Tech Advice. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
   },
-  blogSection: {
-    title: "Blogs",
-    subtitle:
-      "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://ashutoshhathidara.wordpress.com",
-    avatar_image_path: "blogs_image.svg",
-  },
   addressSection: {
     title: "Address",
     subtitle:
@@ -818,6 +854,7 @@ export {
   settings,
   greeting,
   socialMediaLinks,
+  socialMediaLinksHome,
   skills,
   competitiveSites,
   degrees,
