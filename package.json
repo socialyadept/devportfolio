@@ -1,12 +1,12 @@
 {
   "private": true,
   "name": "mkfolio",
-  "homepage": "http://mkumail1.github.io/therealmvp.dev",
-  "version": "0.1.0",
+  "homepage": "https://mkumail1.github.io/therealmvp.dev/",
+  "version": "1.0.0",
   "scripts": {
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject",
     "start": "react-scripts start",
     "test": "react-scripts test"
