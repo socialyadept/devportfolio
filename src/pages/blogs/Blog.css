@@ -1,47 +1,99 @@
 .blogs-main {
-  width: 100vw;
+  width: 100%;
 }
 
-/*Blog Cards Layout*/
-.square {
-  width: 440px;
-  height: 430px;
-  background: white;
-  border-radius: 4px;
-  box-shadow: 0px 20px 50px #d9dbdf;
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  margin-top: 30px;
-}
-
-.square:hover {
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
-}
-
-.blog-header-text {
-  font-size: 56px;
-  font-weight: 400;
-}
-
-.blog-subtitle {
-  text-transform: uppercase;
-}
-.blog-main-div > * {
-  flex: 1;
-  margin-bottom: 30px;
-}
 .blog-main-div {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.blog-heading-div {
   display: flex;
 }
-.blog-image-div > img {
+
+.blog-heading-div > * {
+  flex: 1;
+}
+
+.blog-heading-img-div {
+  align-items: center;
+  justify-content: center;
+}
+
+.blog-heading-text-div {
+  text-align: center;
+}
+
+.blog-heading-img-div > * {
   max-width: 100%;
   height: auto;
 }
-.blog-text-div {
+
+.blog-heading-text {
+  font-size: 56px;
+  font-weight: 400;
+  font-family: "Google Sans Medium";
+  line-height: 1.1;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.blog-header-detail-text {
+  font-size: 20px;
+  line-height: 28px;
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Google Sans";
+}
+
+.blogsite-btn-div {
+  width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+}
+* {
+  box-sizing: border-box;
+}
+.blogs-card-div {
+  display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+.blogs-card-div > div {
+  flex: 0 0 47%;
+}
+
+@media (max-width: 1380px) {
+  .blog-heading-text {
+    font-size: 50px;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .blog-heading-text {
+    font-size: 30px;
+    margin-top: 0px;
+  }
+
+  .blog-heading-div {
+    flex-direction: column-reverse;
+    margin-top: 60px;
+  }
+
+  .blog-heading-text-div {
+    margin-top: 40px;
+  }
+
+  .blog-header-detail-text {
+    font-size: 16px;
+    margin-left: 0px;
+    margin-right: 0px;
+    line-height: normal;
+    text-align: center;
+  }
 }
 
 /* Media Query */
@@ -59,5 +111,8 @@
     font-size: 16px;
     line-height: normal;
     text-align: center;
+  }
+  .blogs-card-div > div {
+    flex: 0 0 100%;
   }
 }

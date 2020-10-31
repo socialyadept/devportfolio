@@ -1,5 +1,5 @@
 .contact-main {
-  width: 100vw;
+  width: 100%;
 }
 
 .basic-contact {
@@ -9,6 +9,7 @@
 
 .contact-heading-div {
   display: flex;
+  margin-bottom: 80px;
 }
 
 .blog-heading-div {
@@ -91,11 +92,11 @@
 
 .contact-header-detail-text {
   font-size: 20px;
-  line-height: 30px;
+  line-height: 28px;
   margin-top: 0px;
   margin-left: 20px;
   margin-right: 20px;
-  font-family: "Google Sans Medium";
+  font-family: "Google Sans";
 }
 
 .blog-header-detail-text {
@@ -111,6 +112,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .blogsite-btn-div {
@@ -141,7 +143,7 @@
 @media (max-width: 768px) {
   .contact-heading-text {
     font-size: 30px;
-    margin-top: 0px;
+    margin-top: 30px;
   }
 
   .blog-heading-text {

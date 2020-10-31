@@ -762,13 +762,37 @@ const projectsHeader = {
   avatar_image_path: "projects_image.svg",
 };
 
+const blogs = {
+  title: "Here's what you need to know that I have written so far :)",
+  section: [
+    {
+      title: "My first ever blog",
+      date: "20-09-2020",
+      text: "abc",
+      image: "https://image.shutterstock.com/image-photo/islamabad-pakistan-april-25-2019-260nw-1407461093.jpg"
+    },
+    {
+      title: "My second ever blog",
+      date: "20-09-2020",
+      text: "abc",
+      image: "https://image.shutterstock.com/image-photo/islamabad-pakistan-april-25-2019-260nw-1407461093.jpg"
+    },
+    {
+      title: "My third ever blog",
+      date: "20-09-2020",
+      text: "abc",
+      image: "https://image.shutterstock.com/image-photo/islamabad-pakistan-april-25-2019-260nw-1407461093.jpg"
+    },
+  ]
+}
+
 // Contact Page
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "address_image.svg",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available on almost every social media. And here is the fun part, I'm very responsive, so feel free to reach me out incase of any Freelance work or any Tech Advice. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
   },
   blogSection: {
     title: "Blogs",
@@ -801,4 +825,5 @@ export {
   experience,
   projectsHeader,
   contactPageData,
+  blogs
 };
