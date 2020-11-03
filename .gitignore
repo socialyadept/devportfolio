@@ -5,6 +5,7 @@
 /.pnp
 /build
 .pnp.js
+.git_data_fetcher.js
 
 # testing
 /coverage
