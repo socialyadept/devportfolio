@@ -17,8 +17,7 @@ export default function Footer(props) {
             style={{
               color: props.theme.imageHighlight, textDecoration: 'none'
             }}
-          >
-            Muhammad Kumail
+          > Muhammad Kumail
           </a>
         </p>
         {/* <ToggleSwitch theme={props.theme} onToggle={props.onToggle} /> */}
