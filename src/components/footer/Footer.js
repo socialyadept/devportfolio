@@ -1,7 +1,6 @@
 import React from "react";
 import "./Footer.css";
 import { Fade } from "react-reveal";
-import { greeting } from "../../portfolio.js";
 // import ToggleSwitch from "../../components/footer/ToggleSwitch";
 /* eslint-disable jsx-a11y/accessible-emoji */
 

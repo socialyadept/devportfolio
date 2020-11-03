@@ -13,7 +13,7 @@ export default function Skills(props) {
             What I Do?
           </h1>
           <p className="skills-description" style={{ color: theme.secondaryText }}>
-            I love to freelance and to help in growing my clients' business 🤝 <br />
+            I love to freelance and to help in growing my clients' business <span role="img" aria-label="hand-shake">🤝</span> <br />
               My development stack is as follows:
           </p>
         </Fade>

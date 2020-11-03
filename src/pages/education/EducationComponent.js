@@ -33,7 +33,7 @@ class Education extends Component {
                 <h3 className="heading-sub-text" style={{ color: theme.text }}>
                   My Qualifications and Certifications
                 </h3>
-                <p>Here's what you need to know about my qualification background 😉</p>
+                <p>Here's what you need to know about my qualification background <span role="img" aria-label="blink">😉</span></p>
                 <CompetitiveSites logos={competitiveSites.competitiveSites} />
               </div>
             </div>

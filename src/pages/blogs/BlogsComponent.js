@@ -7,7 +7,7 @@ import Button from "../../components/button/Button";
 import BlogsImg from "./BlogsImg";
 import { Zoom } from "react-reveal";
 import { blogs } from "../../portfolio";
-import BlogCard from "../../components/blogCard/BlogCard";
+// import BlogCard from "../../components/blogCard/BlogCard";
 
 class BlogsComponent extends Component {
     render() {
