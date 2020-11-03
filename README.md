@@ -23,7 +23,7 @@ Hit the live example, **[click here](https://muhammadkumail.com/)**
 - In case you want to help developing it or simply saving it, you can fork the repository just by clicking the button on the top-right corner of this page.
 - After the successful installation of `nodejs` and `npm`, clone the repository into your local system using below command:
   - ```python
-     git clone https://github.com/ashutosh1919/masterPortfolio.git
+     git clone https://github.com/mkumail1/therealmvp.dev.git
     ```
   - This will clone the whole repository in your system.
 - To download required dependencies to your system, navigate to the directory where the cloned repository resides and execute following command:
@@ -115,12 +115,6 @@ Whenever you want to update the github related information on the website you ne
 
 Now, your website is successfully deployed and you can visit it at `<your-github-username>.github.io`.  
 If you are stuck somewhere and want to observe the deployment process in depth, then please watch below video.
-
-<p align="center"> 
-    <a href="http://www.youtube.com/watch?v=IwBS39TOmpA" target="_blank">
-    <img src="http://img.youtube.com/vi/IwBS39TOmpA/0.jpg"></img>
-  </a>
-</p>
 
 # Technologies used 🛠️
 
