@@ -39,7 +39,7 @@
   margin-top: 80px;
   font-size: 55px;
   line-height: 1.1;
-  font-family: "Google Sans";
+  font-family: "Google Sans Regular";
   color: #133b4f;
 }
 
@@ -58,7 +58,7 @@
 .greeting-text-p {
   font-size: 30px;
   line-height: 40px;
-  font-family: "Google Sans";
+  font-family: "Google Sans Regular";
 }
 
 .greeting-image-div > * {

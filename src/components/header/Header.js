@@ -17,7 +17,7 @@ class Header extends Component {
   render() {
     const theme = this.props.theme;
     console.log(theme);
-    const link = settings.isSplash ? "/splash" : "home";
+    const link = settings.isSplash ? "/splash" : "";
     return (
       <div>
         <header className="header">

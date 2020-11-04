@@ -60,7 +60,8 @@
   display: block;
   float: left;
   font-size: 1.5em;
-  /* text-decoration: none; */
+  text-decoration: underline;
+  text-decoration-color: #551a8b;
   margin-top: 10px;
   line-height: normal;
 }
@@ -68,7 +69,6 @@
   font-family: "Agustina Regular";
   font-weight: inherit;
   padding: 0 10px;
-  /* color: #55198b; */
 }
 
 /* menu */
