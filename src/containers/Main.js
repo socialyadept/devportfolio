@@ -88,11 +88,11 @@ export default class Main extends Component {
                 exact
                 render={(props) => <Home {...props} theme={this.props.theme} />}
               />
-              {/* <Route
+              <Route
                 path="/home"
                 exact
                 render={(props) => <Home {...props} theme={this.props.theme} />}
-              /> */}
+              />
               <Route
                 path="/experience"
                 exact

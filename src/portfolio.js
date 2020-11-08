@@ -13,7 +13,7 @@ const greeting = {
   subTitle:
     'A full stack developer (MERN) 💻 - A student mentor 👨‍🏫 - Public Speaker 🎤',
   resumeLink:
-    "https://drive.google.com/file/d/1lEiYmRPvZdGkUJyT35wmXik6kbHslVc-/view?usp=sharing",
+    "https://drive.google.com/file/d/1eP9O3EAZMfRrqqTXlDFeCJkU5WjyhWYz/view?usp=sharing",
   portfolio_repository: "https://github.com/mkumail1/therealmvp.dev",
 };
 
