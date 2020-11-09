@@ -149,7 +149,7 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building resposive websites using React-Redux.js | HTML/CSS | Bootstrap | Scemantic UI",
+        "⚡ Building responsive websites using React-Redux.js | HTML/CSS | Bootstrap | Scemantic UI",
         "⚡ Creating Single page rendering applications using Redux and HooksJs",
         // "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
         "⚡ Creating optimized application backends in Node.js, Express.js and PHP",
