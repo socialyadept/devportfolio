@@ -11,14 +11,13 @@ const greeting = {
   logo_name: "Muhammad Kumail",
   nickname: "",
   subTitle:
-    'A full stack developer (MERN) 💻 - A student mentor 👨‍🏫 - Public Speaker 🎤',
+    "A full stack developer (MERN) 💻 - A student mentor 👨‍🏫 - Public Speaker 🎤",
   resumeLink:
     "https://drive.google.com/file/d/1eP9O3EAZMfRrqqTXlDFeCJkU5WjyhWYz/view?usp=sharing",
   portfolio_repository: "https://github.com/mkumail1/therealmvp.dev",
 };
 
 const socialMediaLinks = [
-
   {
     name: "Github",
     link: "https://github.com/mkumail1",
@@ -341,9 +340,9 @@ const skills = {
           skillName: "Adobe Photoshop",
           fontAwesomeClassname: "simple-icons:adobephotoshop",
           style: {
-            backgroundColor: '#31A8FF',
-            borderRadius: '9px',
-            padding: '1px 2px',
+            backgroundColor: "#31A8FF",
+            borderRadius: "9px",
+            padding: "1px 2px",
             color: "#001E36",
           },
         },
@@ -385,7 +384,8 @@ const competitiveSites = {
       style: {
         color: "#EDC70E",
       },
-      profileLink: "https://www.qwiklabs.com/public_profiles/8692b167-1af9-4c81-a795-789a654b1113",
+      profileLink:
+        "https://www.qwiklabs.com/public_profiles/8692b167-1af9-4c81-a795-789a654b1113",
     },
     {
       siteName: "Microsoft",
@@ -396,7 +396,6 @@ const competitiveSites = {
       profileLink: "https://docs.microsoft.com/en-us/users/muhammadkumail/",
     },
   ],
-
 };
 
 const degrees = {
@@ -671,8 +670,7 @@ const experience = {
         {
           title: "Software Quality Assurance Intern",
           company: "Afiniti",
-          company_url:
-            "https://www.afiniti.com/",
+          company_url: "https://www.afiniti.com/",
           logo_path: "afiniti-vector-logo.png",
           duration: "August 2020 - September 2020",
           location: "Work From Home",
@@ -683,8 +681,7 @@ const experience = {
         {
           title: "Graphic Designer Intern",
           company: "Vyro.ai",
-          company_url:
-            "https://www.vyro.ai/",
+          company_url: "https://www.vyro.ai/",
           logo_path: "vyro.ai.png",
           duration: "Feb 2019 - Apr 2019",
           location: "TIC, NUST",
@@ -695,8 +692,7 @@ const experience = {
         {
           title: "Digital Marketing Intern",
           company: "Friends Corporation",
-          company_url:
-            "https://www.friendshome.pk/",
+          company_url: "https://www.friendshome.pk/",
           logo_path: "friendshome.png",
           duration: "Jun 2016 - Jul 2016",
           location: "Murree Road, Rawalpindi",
@@ -721,10 +717,10 @@ const experience = {
           color: "#D83B01",
         },
         {
-
           title: "Developer Student Club Lead - NUST",
           company: "Google Developers",
-          company_url: "https://dsc.community.dev/national-university-of-sciences-and-technology/",
+          company_url:
+            "https://dsc.community.dev/national-university-of-sciences-and-technology/",
           logo_path: "dscnust-short.png",
           duration: "July 2020 - present",
           location: "NUST, Islamabad",
@@ -735,7 +731,8 @@ const experience = {
         {
           title: "AWS Educate Cloud Ambassador",
           company: "AWS Educate",
-          company_url: "https://aws.amazon.com/education/awseducate/cloud-ambassador-program/",
+          company_url:
+            "https://aws.amazon.com/education/awseducate/cloud-ambassador-program/",
           logo_path: "awsblack.png",
           duration: "Apr 2020 - present",
           location: "NUST, Islamabad",
@@ -773,8 +770,7 @@ const experience = {
           logo_path: "srp-logo.png",
           duration: "Sep 2019 - Jan 2020",
           location: "NUST, Islamabad",
-          description:
-            `Lead Social Responsibility program by NIMUN. Collaborated NIMUN with MCN in order to attain the common goal of making a difference in the lives of the people in need. \nStrived for: \nSDG# 3: Good Health and Well Being – Lives Impacted 20+. \nSDG#4: Quality Education – Lives Impacted 50+. \nSDG#5: Gender Equality – Lives Impacted 30+. \nSDG#12 Responsible Consumption and Production – Lives Impacted 100+.`,
+          description: `Lead Social Responsibility program by NIMUN. Collaborated NIMUN with MCN in order to attain the common goal of making a difference in the lives of the people in need. \nStrived for: \nSDG# 3: Good Health and Well Being – Lives Impacted 20+. \nSDG#4: Quality Education – Lives Impacted 50+. \nSDG#5: Gender Equality – Lives Impacted 30+. \nSDG#12 Responsible Consumption and Production – Lives Impacted 100+.`,
           color: "#181717",
         },
         {
@@ -784,8 +780,7 @@ const experience = {
           logo_path: "acmnust.jpg",
           duration: "Nov 2018 - Sep 2020",
           location: "SEECS, NUST, Islamabad",
-          description:
-            `Conducted more than 20 events throughout the tenure including HackACM, Github workshops, and exclusive programming events. Engaged more than 100K people across all social media handles of ACM-NUST. Headed major events like: Redbulll University Outreach, Media Week, Facebook Developer's Workshop, MLH Local Hack Day`,
+          description: `Conducted more than 20 events throughout the tenure including HackACM, Github workshops, and exclusive programming events. Engaged more than 100K people across all social media handles of ACM-NUST. Headed major events like: Redbulll University Outreach, Media Week, Facebook Developer's Workshop, MLH Local Hack Day`,
           color: "#181717",
         },
       ],
@@ -812,22 +807,25 @@ const blogs = {
       title: "My first ever blog",
       date: "20-09-2020",
       text: "abc",
-      image: "https://image.shutterstock.com/image-photo/islamabad-pakistan-april-25-2019-260nw-1407461093.jpg"
+      image:
+        "https://image.shutterstock.com/image-photo/islamabad-pakistan-april-25-2019-260nw-1407461093.jpg",
     },
     {
       title: "My second ever blog",
       date: "20-09-2020",
       text: "abc",
-      image: "https://image.shutterstock.com/image-photo/islamabad-pakistan-april-25-2019-260nw-1407461093.jpg"
+      image:
+        "https://image.shutterstock.com/image-photo/islamabad-pakistan-april-25-2019-260nw-1407461093.jpg",
     },
     {
       title: "My third ever blog",
       date: "20-09-2020",
       text: "abc",
-      image: "https://image.shutterstock.com/image-photo/islamabad-pakistan-april-25-2019-260nw-1407461093.jpg"
+      image:
+        "https://image.shutterstock.com/image-photo/islamabad-pakistan-april-25-2019-260nw-1407461093.jpg",
     },
-  ]
-}
+  ],
+};
 
 // Contact Page
 const contactPageData = {
@@ -862,5 +860,5 @@ export {
   experience,
   projectsHeader,
   contactPageData,
-  blogs
+  blogs,
 };

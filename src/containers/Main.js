@@ -8,6 +8,7 @@ import Opensource from "../pages/opensource/Opensource";
 import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
 import Blogs from "../pages/blogs/BlogsComponent";
+import Resume from "../pages/resume/ResumeComponent";
 import Error from "../pages/error/ErrorComponent";
 import { settings } from "../portfolio.js";
 
@@ -142,6 +143,13 @@ export default class Main extends Component {
                 exact
                 render={(props) => (
                   <Projects {...props} theme={this.props.theme} />
+                )}
+              />
+              <Route
+                path="/Kumail_Resume.pdf"
+                exact
+                render={(props) => (
+                  <Resume {...props} theme={this.props.theme} />
                 )}
               />
               <Route

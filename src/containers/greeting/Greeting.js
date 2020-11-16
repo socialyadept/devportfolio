@@ -6,19 +6,17 @@ import { greeting, socialMediaLinksHome } from "../../portfolio";
 import { Fade } from "react-reveal";
 // import FeelingProud from "./FeelingProud";
 
-
 export default function Greeting(props) {
   const theme = props.theme;
+
   return (
     <Fade bottom duration={2000} distance="40px">
       <div className="greet-main" id="greeting">
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div className="">
-
               <h1 className="greeting-text" style={{ color: theme.text }}>
                 {greeting.title}
-
               </h1>
               {/* <h2 className="greeting-nickname" style={{ color: theme.text }}>
                 ( {greeting.nickname} )
@@ -30,17 +28,21 @@ export default function Greeting(props) {
                 {greeting.subTitle}
               </p>
 
-              <SocialMedia theme={theme} socialMediaLinks={socialMediaLinksHome} />
+              <SocialMedia
+                theme={theme}
+                socialMediaLinks={socialMediaLinksHome}
+              />
 
               <div className="portfolio-repo-btn-div">
                 <Button
                   text="Resume 📝"
                   newTab={true}
-                  href={greeting.resumeLink}
+                  href={"/Kumail_Resume.pdf"}
                   theme={theme}
                   className="portfolio-repo-btn"
                 />
               </div>
+
               {/* <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" theme={theme} />
                 <Button text="See my resume" newTab={true} href={greeting.resumeLink} theme={theme} />
@@ -53,7 +55,11 @@ export default function Greeting(props) {
               src={require("../../assests/images/feelingProud.svg")}
             ></img>
             <FeelingProud theme={theme} /> */}
-            <img className="myimage" src={require("../../assests/images/mk.svg")} alt="Muhammad Kumail.img"></img>
+            <img
+              className="myimage"
+              src={require("../../assests/images/mk.svg")}
+              alt="Muhammad Kumail.img"
+            ></img>
           </div>
         </div>
       </div>
