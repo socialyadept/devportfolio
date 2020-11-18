@@ -408,7 +408,7 @@ const degrees = {
       duration: "2018 - Present",
       descriptions: [
         "⚡ I have gained deep insights into fundamental software engineering courses like DS, Algorithms, DBMS, OS, Advanced Programming etc.",
-        "⚡ The transparent methodology of providng diversity and building confidence by NUST has helped to develop me as a person not to forget mentioning the community bonding techniques that talks about growth",
+        "⚡ The transparent methodology of providing diversity and building confidence by NUST has helped to develop me as a person not to forget mentioning the community bonding techniques that talks about growth",
         "⚡ Apart from this, I have done courses on MERN Stack Development, Cloud Computing, Data Science, and Managing successful startups",
       ],
       website_link: "https://nust.edu.pk/",
@@ -713,7 +713,7 @@ const experience = {
           duration: "Aug 2020 - present",
           location: "NUST, Islamabad",
           description:
-            "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops of GitHub and seminars to teach Cloud Computing concepts to students.",
+            "Microsoft Student Ambassador is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops of GitHub and seminars to teach Cloud Computing concepts to students.",
           color: "#D83B01",
         },
         {
@@ -725,7 +725,7 @@ const experience = {
           duration: "July 2020 - present",
           location: "NUST, Islamabad",
           description:
-            "2nd ever lead from NUST and Pakistani DSC Chapter. Lead the club for one of the most prestigious universities in Pakistan. Conducted tonnes of events in order to make student the next big assests in the market. The programs involves sharing knowledge, learning and community building using the power of Google and its resources. Finally, mentoring people to become the next Google Developer Expert and continuining the chain.",
+            "2nd ever lead from NUST and Pakistani DSC Chapter. Lead the club for one of the most prestigious universities in Pakistan. Conducted tonnes of events in order to make student the next big assests in the market. The programs involves sharing knowledge, learning and community building using the power of Google and its resources. Finally, mentoring people to become the next Google Developer Expert and preserving the chain.",
           color: "#4285F4",
         },
         {
@@ -760,7 +760,7 @@ const experience = {
           duration: "October 2020 - PRESENT",
           location: "Work From Home",
           description:
-            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like StudentCodeIn, Hacktoberfest, flutter mobile apps, and open source React applications. These contributions include bug fixes, feature requests and formulating peoper documentation for project.",
+            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like StudentCodeIn, Hacktoberfest, flutter mobile apps, and open source React applications. These contributions include bug fixes, feature requests and formulating proper documentation for a project.",
           color: "#181717",
         },
         {
