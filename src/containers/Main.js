@@ -146,7 +146,7 @@ export default class Main extends Component {
                 )}
               />
               <Route
-                path="/Kumail_Resume.pdf"
+                path="/resume"
                 exact
                 render={(props) => (
                   <Resume {...props} theme={this.props.theme} />

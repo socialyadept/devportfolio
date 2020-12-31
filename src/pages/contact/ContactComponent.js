@@ -7,7 +7,11 @@ import Button from "../../components/button/Button";
 import AddressImg from "./AddressImg";
 import { Zoom } from "react-reveal";
 import "./ContactComponent.css";
-import { greeting, contactPageData, socialMediaLinks } from "../../portfolio.js";
+import {
+  greeting,
+  contactPageData,
+  socialMediaLinks,
+} from "../../portfolio.js";
 
 const ContactData = contactPageData.contactSection;
 
@@ -18,7 +22,7 @@ class Contact extends Component {
       <div className="contact-main">
         <Header theme={theme} />
         <div className="basic-contact">
-          <Zoom duration={1000} >
+          <Zoom duration={1000}>
             <div className="contact-heading-div">
               <div className="contact-heading-img-div">
                 {/* <img
@@ -40,12 +44,15 @@ class Contact extends Component {
                 >
                   {ContactData["description"]}
                 </p>
-                <SocialMedia theme={theme} socialMediaLinks={socialMediaLinks} />
+                <SocialMedia
+                  theme={theme}
+                  socialMediaLinks={socialMediaLinks}
+                />
                 <div className="resume-btn-div">
                   <Button
                     text="See My Resume"
                     newTab={true}
-                    href={greeting.resumeLink}
+                    href="/resume"
                     theme={theme}
                   />
                 </div>
