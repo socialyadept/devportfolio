@@ -66,15 +66,12 @@
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkxODIxMjk3NTQ=",
-      "name": "Patatap Clone",
-      "createdAt": "Apr 2020",
-      "url": "https://github.com/mkumail1/Patatap-Clone",
-      "description": "An html app made for music lovers. You can create a music of your own out of few tones made using QWERTY Keyboard",
+      "name": "Webcrawler",
+      "createdAt": "Jan 2021",
+      "url": "https://github.com/mkumail1/webcrawler",
+      "description": "A web crawler made in python that is capable of searching a keyword upto 3 levels of a particular website including BBC, Facebook, Youtube etc.",
       "isFork": false,
-      "languages": [
-        { "name": "HTML", "iconifyClass": "logos-html-5" },
-        { "name": "HTML", "iconifyClass": "logos-javascript" }
-      ]
+      "languages": [{ "name": "PYTHON", "iconifyClass": "logos-python" }]
     }
   ]
 }

@@ -1,4 +1,4 @@
-<h1 align="center"> Here is my MKFolio 🔥 </h1> 
+<h1 align="center"> Here is my MKFolio by Muhammad Kumail 🔥 </h1> 
 <h3 align="center"> A clean, beautiful, responsive and 100% customizable portfolio <br /> template for Software Developers! </h3>
 
 :star: Star me on GitHub — it helps!
@@ -82,7 +82,6 @@ node git_data_fetcher.js
 
 This will fetch all the data from your github and it will automatically replace my data with yours.
 Whenever you want to update the github related information on the website you need to run this command.
-
 
 # Choose Theme 🌈
 
