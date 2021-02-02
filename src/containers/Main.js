@@ -1,17 +1,19 @@
 import React, { Component } from "react";
 import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
 import Splash from "../pages/splash/Splash";
-import Education from "../pages/education/EducationComponent";
-import Experience from "../pages/experience/Experience";
-import Opensource from "../pages/opensource/Opensource";
-import Contact from "../pages/contact/ContactComponent";
-import Projects from "../pages/projects/Projects";
-import Blogs from "../pages/blogs/BlogsComponent";
-import Resume from "../pages/resume/ResumeComponent";
-import Error from "../pages/error/ErrorComponent";
 import { settings } from "../portfolio.js";
 import { Suspense } from "react";
 const Home = React.lazy(() => import("../pages/home/HomeComponent"));
+const Education = React.lazy(() =>
+  import("../pages/education/EducationComponent")
+);
+const Experience = React.lazy(() => import("../pages/experience/Experience"));
+const Opensource = React.lazy(() => import("../pages/opensource/Opensource"));
+const Contact = React.lazy(() => import("../pages/contact/ContactComponent"));
+const Projects = React.lazy(() => import("../pages/projects/Projects"));
+const Blogs = React.lazy(() => import("../pages/blogs/BlogsComponent"));
+const Resume = React.lazy(() => import("../pages/resume/ResumeComponent"));
+const Error = React.lazy(() => import("../pages/error/ErrorComponent"));
 
 export default class Main extends Component {
   render() {
