@@ -1,17 +1,16 @@
 import React, { Component } from "react";
 import "./Header.css";
 import { NavLink, Link } from "react-router-dom";
-import { greeting, settings } from "../../portfolio.js";
+import { greeting } from "../../portfolio.js";
 
 class Header extends Component {
   render() {
     const theme = this.props.theme;
     console.log(theme);
-    const link = settings.isSplash ? "/splash" : "";
     return (
       <div>
         <header className="header">
-          <NavLink to={link} tag={Link} className="logo">
+          <NavLink to="/home" tag={Link} className="logo">
             <span style={{ color: theme.text }}> &lt;</span>
             <span className="logo-name" style={{ color: "#010101" }}>
               {greeting.logo_name}
