@@ -46,9 +46,8 @@ class Contact extends Component {
                 />
                 <div className="resume-btn-div">
                   <Button
-                    text="See My Resume"
-                    newTab={true}
-                    href="/resume"
+                    text="Reach me via email"
+                    href="mailto:mkumailofficial@gmail.com"
                     theme={theme}
                   />
                 </div>
