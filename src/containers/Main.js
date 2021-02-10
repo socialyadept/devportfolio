@@ -88,6 +88,18 @@ export default class Main extends Component {
                     <Blogs {...props} theme={this.props.theme} />
                   )}
                 />
+                <Route
+                  path="/resume"
+                  exact
+                  render={(props) => (
+                    <Resume {...props} theme={this.props.theme} />
+                  )}
+                />
+                <Route
+                  render={(props) => (
+                    <Error {...props} theme={this.props.theme} />
+                  )}
+                />
               </Switch>
             </Router>
           </div>
