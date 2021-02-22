@@ -15,8 +15,6 @@ const Home = React.lazy(() => import("../pages/home/HomeComponent"));
 
 export default class Main extends Component {
   render() {
-    const theme = this.props.theme;
-    console.log(theme);
     if (settings.isSplash) {
       return (
         <Suspense

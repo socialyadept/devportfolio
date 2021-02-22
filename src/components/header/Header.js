@@ -6,7 +6,6 @@ import { greeting } from "../../portfolio.js";
 class Header extends Component {
   render() {
     const theme = this.props.theme;
-    console.log(theme);
     return (
       <div>
         <header className="header">
