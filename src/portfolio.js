@@ -407,9 +407,10 @@ const degrees = {
       alt_name: "NUST - Islamabad",
       duration: "2018 - Present",
       descriptions: [
-        "⚡ I have gained deep insights into fundamental software engineering courses like DS, Algorithms, DBMS, OS, Advanced Programming etc.",
+        "⚡ Gained deep insights of fundamental software engineering courses like DS, Algorithms, DBMS, OS, Advanced Programming, Artificial Intelligence etc.",
         "⚡ The transparent methodology of providing diversity and building confidence by NUST has helped to develop me as a person not to forget mentioning the community bonding techniques that talks about growth",
         "⚡ Apart from this, I have done courses on MERN Stack Development, Cloud Computing, Data Science, and Managing successful startups",
+        "⚡ My favorite co-curricular hobby has been to manage big tech communities since I have represented NUST as an MLSA, Google DSC Lead and AWS Educate Cloud Ambassador simultaneously",
       ],
       website_link: "https://nust.edu.pk/",
     },
@@ -612,7 +613,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have worked with many evolving startups as a Full Stack Developer, Designer and Software Architect. I have also worked with some well established companies as Software Quality Assurance Trainee. I love giving back to the people what I have learnt. So, organising events and fundraising is what I do week in week out. From Personally conducting hackathons to mentoring students as a Microsoft representative and creating empowering communities that benefits more than 2K people accross the country on a daily basis is why I am involved with many opensource communities as a representative.",
+    "I have worked with many evolving startups as a Full Stack Developer, Designer and a Software Architect. I have also worked with some well established companies as Software Quality Assurance Trainee. I have also given my services as a Project Manager for an International Company. The best part is that I love giving back to the people what I have learned so far. So, organising events and fundraising is what I do voluntarity. From Personally conducting hackathons to mentoring students as a Microsoft representative I have built empowering tech communities that benefits more than 3000 people accross the country on a daily basis",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -626,7 +627,7 @@ const experience = {
           duration: "June 2020 - Aug 2020",
           location: "Remote Work",
           description:
-            "Open Source project aiming to connect patients with doctors to help people psychologically and giving them advice. Contributed to the project over MERN as the web stack. Resolved the issues of setting up the express server, contact us rendering, and form validation. I was involved in the team to help them build an optimized architecture. Core benefit: Reaching remote people deprived of good medical facilities.",
+            "Open Source project aimed to connect patients with doctors helping people psychologically by giving them advice. Mainly contributed to the project over MERN as the web stack. Resolved the issues of setting up the express server, contact us rendering, and form validation. I was involved in the team to help them build an optimized architecture. Core benefit: Reaching remote people deprived of good medical facilities.",
           color: "#0879bf",
         },
         // {
@@ -639,17 +640,6 @@ const experience = {
         //   description:
         //     "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
         //   color: "#9b1578",
-        // },
-        // {
-        //   title: "Android Developer",
-        //   company: "FreeCopy Pvt. Ltd.",
-        //   company_url: "https://www.linkedin.com/company/freecopy/about/",
-        //   logo_path: "freecopy_logo.png",
-        //   duration: "Nov 2017 - Dec 2017",
-        //   location: "Ahmedabad, Gujarat",
-        //   description:
-        //     "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-        //   color: "#fc1f20",
         // },
       ],
     },
@@ -664,7 +654,7 @@ const experience = {
           duration: "April 2020 - present",
           location: "SEECS, NUST",
           description:
-            "I have worked on project of 2D image into 3D using Machine Learning Techniques. There were two objectives: (1) To enuemerate normal prediction of a 2D image. (2) Using ML techniques to draw coordinates on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. The project had the following scope: (a) Object Visualization for Uban Cities. (b) Generating/evaluating building hypothesis",
+            "Worked on project of converting 2D image into 3D using the help of Machine Learning. The project covered two main aspects: (1) To enuemerate normal prediction of a 2D image. (2) Using ML techniques to draw coordinates on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution. The project had the following scope: (a) Object Visualization for Uban Cities. (b) Generating/evaluating building hypothesis",
           color: "#ee3c26",
         },
         {
@@ -675,7 +665,7 @@ const experience = {
           duration: "August 2020 - September 2020",
           location: "Work From Home",
           description:
-            "Worked as a Software Quality Assurance Intern for a recently developed software by Afiniti in a group of 70+ students from all backgrounds under flexible timings during the tenure. The work helped me build strong analytical approach, and the agile feedbacks and suggestions improved the product to a greater extent. Gained keen knowledge of working under big corporate and been able to blend into their working environment.",
+            "Worked as a Software Quality Assurance Intern for an Enterprise software developed by Afiniti with a diverse group of 70+ students from multinational backgrounds. The work helped me build strong analytical approach. The agile feedbacks and suggestions improved the product to a greater extent. Ultimately, I gained keen knowledge of working in big corporates and been able to blend into their working environments.",
           color: "#0071C5",
         },
         {
@@ -686,7 +676,7 @@ const experience = {
           duration: "Feb 2019 - Apr 2019",
           location: "TIC, NUST",
           description:
-            "Mainly aimed to create face models for a photo editing mobile app using AI. The face features were designed using photoshop and illustrator. Used scripting for automation of rendering. The automation reduced the office overhead and labour by 60%. The initial boost helped the app to attain 1M+ downloads in the play store within a year. So far Vyro has more than 4 apps in play store with approximately 2M+ downloads.",
+            "Mainly aimed to create face models for a photo editing mobile app using AI. The face features were designed using photoshop and illustrator. Used scripting for automation of rendering. The automation reduced the office overhead and labour by 60%. The initial boost helped the app to attain 1M+ downloads in the play store within a year. So far Vyro has more than 4 apps in play store with approximately 32M+ downloads.",
           color: "#0071C5",
         },
         {
@@ -725,7 +715,7 @@ const experience = {
           duration: "July 2020 - present",
           location: "NUST, Islamabad",
           description:
-            "2nd ever lead from NUST and Pakistani DSC Chapter. Lead the club for one of the most prestigious universities in Pakistan. Conducted tonnes of events in order to make student the next big assests in the market. The programs involves sharing knowledge, learning and community building using the power of Google and its resources. Finally, mentoring people to become the next Google Developer Expert and preserving the chain.",
+            "2nd ever lead from NUST and Pakistani DSC Chapter. Lead the club for one of the most prestigious universities in Pakistan. Conducted tonnes of events in order to make student the next big assests in the market. The program provides an ecosystem that encourages sharing of knowledge, learning and community building using the power of Google and its resources. Finally, it gives the exposure of mentoring people to become the next Google Developer Expert and preserving the chain.",
           color: "#4285F4",
         },
         {
@@ -737,7 +727,7 @@ const experience = {
           duration: "Apr 2020 - present",
           location: "NUST, Islamabad",
           description:
-            "Enabling students to learn the cloud based cooporate technology usage using AWS. Made more than 50 students a part of AWS Educate program. Conducted workshops and Community Day event powered by AWS in Pakistan. Found AWS community of Pakistan, the first of its kind that helps more than 1K students on a weekly basis to learn AWS.",
+            "Enabling students to learn the cloud based cooporate technology usage using AWS. Made more than 50 students a part of AWS Educate program. Conducted workshops and Community Day event powered by AWS in Pakistan. Founded AWS community of Pakistan, the first of its kind that helps more than 1K students on a weekly basis to learn AWS.",
           color: "#000000",
         },
         {
@@ -749,7 +739,7 @@ const experience = {
           duration: "Jul 2019 - Jun 2020",
           location: "NUST, Islamabad",
           description:
-            'Leadership development program presented by the United Nations Academic Impact and MCN. Only 6% of campuses in 16 nations selected based on the calibre of applications. Over the semester, led the "Street School" project, helping 56 children ages 4-11 gain access to mentorship and 86% improved their lifestyle. Engaged in webinars with Katie Strock, Gates Foundation, Eric Knee, Stanford Social Innovation Review, Sam Vaghar. Mainly targeted SDG# 3: Good Health and Well Being, SDG#4: Quality Education, SDG#5: Gender Equality. Engaged in sessions to cultivate core values of empathy, humility, inclusion in leadership and social impact. Honed skills including how to write a budget and set and meet strategic goals. Helped build a community of practice - sharing best practices across organizations. Later our project was listed among the top 5 projects of the fellowship program. Collaborated with other non-profit organizations to help maximum people from back areas to come up. Later, I was selected as the program recruiter which enabled me to select the future global entrepreneuers on the basis of merit. Finally, I was offered to become the program mentor for my university chapter.',
+            'Leadership development program presented by the United Nations Academic Impact and MCN. Only 6% of campuses in 16 nations selected based on the calibre of applications. Over the semester, led the "Street School" project, helping 56 children ages 4-11 gain access to mentorship and 86% improved their lifestyle. Engaged in webinars with Katie Strock, Gates Foundation, Eric Knee, Stanford Social Innovation Review, Sam Vaghar. Mainly targeted SDG# 3: Good Health and Well Being, SDG#4: Quality Education, SDG#5: Gender Equality. Engaged in sessions to cultivate core values of empathy, humility, inclusion in leadership and social impact. Honed skills including how to write a budget and set and meet strategic goals. Helped build a community of practice - sharing best practices across organizations. Later our project was listed among the top 5 projects of the fellowship program. Collaborated with other non-profit organizations to help maximum people from back of areas to come up. Later, I was selected as the program recruiter which enabled me to select the future social entrepreneuers on the basis of merit. Finally, I was offered to become the program mentor for my university chapter.',
           color: "#0C9D58",
         },
         {
@@ -760,7 +750,7 @@ const experience = {
           duration: "October 2020 - PRESENT",
           location: "Work From Home",
           description:
-            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like StudentCodeIn, Hacktoberfest, flutter mobile apps, and open source React applications. These contributions include bug fixes, feature requests and formulating proper documentation for a project.",
+            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like StudentCodeIn, Hacktoberfest, flutter mobile apps, and MERN applications. These contributions include bug fixes, feature requests and formulating proper documentation for a project.",
           color: "#181717",
         },
         {
@@ -777,7 +767,7 @@ const experience = {
           title: "Team Lead Social Media Marketing",
           company: "Association of Computing and Machinery, NUST",
           company_url: "https://www.facebook.com/NUST.ACM",
-          logo_path: "acmnust.jpg",
+          logo_path: "acmnust.png",
           duration: "Nov 2018 - Sep 2020",
           location: "SEECS, NUST, Islamabad",
           description: `Conducted more than 20 events throughout the tenure including HackACM, Github workshops, and exclusive programming events. Engaged more than 100K people across all social media handles of ACM-NUST. Headed major events like: Redbulll University Outreach, Media Week, Facebook Developer's Workshop, MLH Local Hack Day`,
@@ -792,7 +782,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools including ReactJs, Hooks, Nodejs, ExpressJs, MongoDB, HTML/CSS, C/C++, Andriod Apps in Java, and Python. My best experience is to create Full stack applications and deploy them to web applications using cloud infrastructure.",
+    "My projects involve use of various tech architectures and tools including ReactJs, NextJs, Redux, Hooks, Nodejs, ExpressJs, MongoDB, HTML/CSS, C/C++, Android Apps in Java, and Python. My best experience is to create Full stack applications and deploy them using an efficient cloud infrastructure.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -833,18 +823,17 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "address_image.svg",
     description:
-      "I am available on almost every social media. And here is the fun part, I'm very responsive, so feel free to reach me out weather you want a Freelance work to be done or need a speaker for your tech talk. You can hit me up in order to have a Tech advice too! I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available on almost every social media. And here is the fun part, I'm very responsive, so feel free to reach me out if you want a Freelance work to be done or need a speaker for your tech talk. You can hit me up in order to have a Tech advice too! I can help you with ML, AI, MERN Stack and Android applications, Cloud and Opensource Development.",
   },
   addressSection: {
     title: "Address",
-    subtitle:
-      "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
+    subtitle: "B/1325, Satellite Town, Rawalpindi, Punjab, Pakistan",
     avatar_image_path: "address_image.svg",
     location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
   },
   phoneSection: {
     title: "Phone Number",
-    subtitle: "+91 8320758513",
+    subtitle: "+92 3311140888",
   },
 };
 
