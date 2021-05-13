@@ -823,7 +823,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "address_image.svg",
     description:
-      "I am available on almost every social media. And here is the fun part, I'm very responsive, so feel free to reach me out if you want a Freelance work to be done or need a speaker for your tech talk. You can hit me up in order to have a Tech advice too! I can help you with ML, AI, MERN Stack and Android applications, Cloud and Opensource Development.",
+      "I am available on almost every social media. And here is the fun part, I'm very responsive, so feel free to reach me out if you want a Freelance work to be done or need a speaker for your tech talk. You can hit me up and have a Tech Savy advice too! I can help you with ML, AI, MERN Stack and Android applications, Cloud Architectures and Opensource Development.",
   },
   addressSection: {
     title: "Address",

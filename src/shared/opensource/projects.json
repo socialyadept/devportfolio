@@ -46,7 +46,7 @@
       "name": "Text-to-Braille Binary Translator",
       "createdAt": "May 2020",
       "url": "https://github.com/mkumail1/Text-to-Braille_Binary-Translator",
-      "description": "This is a project that converts the entered text into a Braille-binary code. An exlusive software for differently abled people",
+      "description": "This project converts the input text into a Braille-binary code. An exlusive software for differently abled people",
       "isFork": false,
       "languages": [{ "name": "Java", "iconifyClass": "logos-java" }]
     },
