@@ -108,8 +108,8 @@
 
   .portfolio-repo-btn-div {
     width: 100%;
-    display: flex;
-    justify-content: center;
+    display: flex !important;
+    justify-content: flex-start;
   }
   .greeting-image-div > * {
     max-width: 80%;
