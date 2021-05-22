@@ -14,6 +14,7 @@ const greeting = {
     "A full stack developer (MERN) 💻 - A student mentor 👨‍🏫 - Public Speaker 🎤",
   resumeLink:
     "https://drive.google.com/file/d/1eP9O3EAZMfRrqqTXlDFeCJkU5WjyhWYz/view?usp=sharing",
+  upworkProfile: "https://www.upwork.com/o/profiles/users/~01d6588c289ac050a4/",
   portfolio_repository: "https://github.com/mkumail1/therealmvp.dev",
 };
 
@@ -92,7 +93,6 @@ const socialMediaLinksHome = [
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
-
   {
     name: "Facebook",
     link: "https://www.facebook.com/iamkumaail",

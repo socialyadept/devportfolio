@@ -6,6 +6,18 @@ import { greeting, socialMediaLinksHome } from "../../portfolio";
 import { Fade } from "react-reveal";
 // import FeelingProud from "./FeelingProud";
 
+const onMouseEnter = (event, color, bgColor) => {
+  const el = event.target;
+  el.style.color = color;
+  el.style.backgroundColor = bgColor;
+};
+
+const onMouseOut = (event, color, bgColor) => {
+  const el = event.target;
+  el.style.color = color;
+  el.style.backgroundColor = bgColor;
+};
+
 export default function Greeting(props) {
   const theme = props.theme;
 
@@ -33,7 +45,10 @@ export default function Greeting(props) {
                 socialMediaLinks={socialMediaLinksHome}
               />
 
-              <div className="portfolio-repo-btn-div">
+              <div
+                className="portfolio-repo-btn-div"
+                style={{ display: "flex" }}
+              >
                 <Button
                   text="Resume 📝"
                   newTab={true}
@@ -41,6 +56,36 @@ export default function Greeting(props) {
                   theme={theme}
                   className="portfolio-repo-btn"
                 />
+                {/* <Button
+                  text="Hire me on Upwork"
+                  newTab={true}
+                  href={greeting.upworkProfile}
+                  theme={theme}
+                  className="portfolio-repo-btn"
+                  style={{ marginleft: "10px" }}
+                /> */}
+                <div className="portfolio-repo-btn">
+                  <a
+                    className="main-button"
+                    href={greeting.upworkProfile}
+                    target="_blank"
+                    style={{
+                      color: theme.body,
+                      backgroundColor: theme.text,
+                      border: `solid 1px ${theme.text}`,
+                      marginLeft: "20px",
+                    }}
+                    onMouseEnter={(event) =>
+                      onMouseEnter(event, theme.text, theme.body)
+                    }
+                    onMouseOut={(event) =>
+                      onMouseOut(event, theme.body, theme.text)
+                    }
+                  >
+                    Hire me on{" "}
+                    <img src="../../assets/images/upwork.png" alt="Upwork" />
+                  </a>
+                </div>
               </div>
             </div>
           </div>

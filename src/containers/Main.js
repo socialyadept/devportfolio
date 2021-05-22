@@ -19,7 +19,7 @@ export default class Main extends Component {
       return (
         <Suspense
           fallback={
-            <div>
+            <div className="container my-auto mx-auto">
               <img
                 src={require("../assests/images/infinity-gif.svg")}
                 alt="infinity and beyond..."
