@@ -7,6 +7,7 @@
 .pnp.js
 .git_data_fetcher.js
 package-lock.json*
+yarn.lock
 
 # testing
 /coverage
