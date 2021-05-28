@@ -17,17 +17,17 @@ const ga4react = new GA4React(process.env.REACT_APP_GA_TRACKING_ID);
 const engine = new Styletron();
 
 (async () => {
-  await ga4react.initialize();
-
-  ReactDOM.render(
-    <StyletronProvider value={engine}>
-      <BaseProvider theme={LightTheme}>
-        <App />
-      </BaseProvider>
-    </StyletronProvider>,
-    document.getElementById("root")
-  );
+  await ga4react.initialize().then(() => console.log("initialized"));
 })();
+
+ReactDOM.render(
+  <StyletronProvider value={engine}>
+    <BaseProvider theme={LightTheme}>
+      <App />
+    </BaseProvider>
+  </StyletronProvider>,
+  document.getElementById("root")
+);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
