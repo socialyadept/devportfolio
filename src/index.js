@@ -10,21 +10,24 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import "./assests/font-awesome/css/all.css";
-import ReactGA from "react-ga";
+import GA4React from "ga-4-react";
 
-ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID);
-ReactGA.pageview(window.location.pathname + window.location.search);
+const ga4react = new GA4React(process.env.REACT_APP_GA_TRACKING_ID);
 
 const engine = new Styletron();
 
-ReactDOM.render(
-  <StyletronProvider value={engine}>
-    <BaseProvider theme={LightTheme}>
-      <App />
-    </BaseProvider>
-  </StyletronProvider>,
-  document.getElementById("root")
-);
+(async () => {
+  await ga4react.initialize();
+
+  ReactDOM.render(
+    <StyletronProvider value={engine}>
+      <BaseProvider theme={LightTheme}>
+        <App />
+      </BaseProvider>
+    </StyletronProvider>,
+    document.getElementById("root")
+  );
+})();
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
