@@ -17,7 +17,7 @@ const ga4react = new GA4React(process.env.REACT_APP_GA_TRACKING_ID);
 const engine = new Styletron();
 
 (async () => {
-  await ga4react.initialize().then(() => console.log("initialized"));
+  await ga4react.initialize();
 })();
 
 ReactDOM.render(
