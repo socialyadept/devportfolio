@@ -620,6 +620,17 @@ const experience = {
       title: "Work",
       experiences: [
         {
+          title: "Project Manager",
+          company: "Shift Crowd, United Kingdom",
+          company_url: "https://shiftcrowd.co.uk/",
+          logo_path: "shiftcrowd.png",
+          duration: "Dec 2020 - Mar 2021",
+          location: "Remote Work",
+          description:
+            "Responsible for developing Enterprise level projects in MERN stack. Worked with diversified team from all across Europe remotely from home. Used applications of redux and hooks to build scalable solutions in React. Lead the team as Scrum and automation master, achieved customer satisfaction with continuous integration. Helped me build strong leadership roles in mounting big projects.",
+          color: "#0879bf",
+        },
+        {
           title: "Open Source Developer",
           company: "Student CodeIn",
           company_url: "https://scodein.tech/",
