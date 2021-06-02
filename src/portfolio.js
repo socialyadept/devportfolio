@@ -620,6 +620,17 @@ const experience = {
       title: "Work",
       experiences: [
         {
+          title: "Software and Machine Learning Engineer",
+          company: "Quantaleap, Netherlands",
+          company_url: "https://quantaleap.eu/",
+          logo_path: "quantaleap.png",
+          duration: "June 2021 - present",
+          location: "Remote Work",
+          description:
+            "Developing cloud solutions for enterprise and enabling cloud automation with just one click of a button. Working on project that involves Data engineering and data feeding for controlling of instances. Finally using serverless computing to build a handsome product. Main build tools involved adobe XD, AI, AWS, Azure, GCP, MERN, and Redux.",
+          color: "#0879bf",
+        },
+        {
           title: "Project Manager",
           company: "Shift Crowd, United Kingdom",
           company_url: "https://shiftcrowd.co.uk/",
