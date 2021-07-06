@@ -1,23 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5fc50b028901706db6ebb0358a382e0f",
+    "revision": "bee007f194decfce9bb2c5c518b26420",
     "url": "/therealmvp.dev/index.html"
   },
   {
-    "revision": "562e6d41f0a9d5376cef",
-    "url": "/therealmvp.dev/static/css/main.ef042ee1.chunk.css"
+    "revision": "3084a61146b613d71eed",
+    "url": "/therealmvp.dev/static/css/3.6c4997df.chunk.css"
   },
   {
-    "revision": "203cb64f8942b94c2547",
-    "url": "/therealmvp.dev/static/js/2.26a39147.chunk.js"
+    "revision": "6f37b825d1dd2284010d",
+    "url": "/therealmvp.dev/static/css/main.8bd89834.chunk.css"
   },
   {
-    "revision": "562e6d41f0a9d5376cef",
-    "url": "/therealmvp.dev/static/js/main.11341461.chunk.js"
+    "revision": "f71cdec4db4facef2696",
+    "url": "/therealmvp.dev/static/js/2.5517f11f.chunk.js"
   },
   {
-    "revision": "6559cc8770242f272834",
-    "url": "/therealmvp.dev/static/js/runtime-main.aeb071a7.js"
+    "revision": "3084a61146b613d71eed",
+    "url": "/therealmvp.dev/static/js/3.7024376f.chunk.js"
+  },
+  {
+    "revision": "6f37b825d1dd2284010d",
+    "url": "/therealmvp.dev/static/js/main.98e6d648.chunk.js"
+  },
+  {
+    "revision": "33f387c4bf35240d26c3",
+    "url": "/therealmvp.dev/static/js/runtime-main.bc308b3c.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -56,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/therealmvp.dev/static/media/UNICEF-logo.0444d8df.png"
   },
   {
-    "revision": "3f87620ff0e1b59581126f38da57a9a0",
-    "url": "/therealmvp.dev/static/media/acmnust.3f87620f.jpg"
+    "revision": "dd26271d8391ad9fe4e1648888dec6e4",
+    "url": "/therealmvp.dev/static/media/acmnust.dd26271d.png"
   },
   {
     "revision": "3b021f8ffcf9f323ea72abc28382e234",
@@ -66,10 +74,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3f987fe00dbd1b29cb9a38cf69e70a5b",
     "url": "/therealmvp.dev/static/media/afiniti-logo.3f987fe0.png"
-  },
-  {
-    "revision": "6c8410d0dc11fec239040695be13315d",
-    "url": "/therealmvp.dev/static/media/animated_ashutosh.6c8410d0.png"
   },
   {
     "revision": "a633be2faf9b129259563d65d0aa1333",
@@ -248,12 +252,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/therealmvp.dev/static/media/iiitk_logo.c350d799.png"
   },
   {
+    "revision": "a03a4dac5dadcfdf3bd750f385ed9e68",
+    "url": "/therealmvp.dev/static/media/infinity-gif.a03a4dac.svg"
+  },
+  {
     "revision": "29152cf756a1facead5393c32e373371",
     "url": "/therealmvp.dev/static/media/intel_logo.29152cf7.jpg"
   },
   {
     "revision": "b05ae5b575a7e1125610944dc152c35f",
     "url": "/therealmvp.dev/static/media/jsFramework.b05ae5b5.svg"
+  },
+  {
+    "revision": "dbe9ef0ebf26ba82800dd9adcfd4083c",
+    "url": "/therealmvp.dev/static/media/kumail.dbe9ef0e.pdf"
   },
   {
     "revision": "4ba886bafb9ff0a5b71b800c47f45d90",
@@ -268,8 +280,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/therealmvp.dev/static/media/mcn-logo.0b212d38.png"
   },
   {
-    "revision": "00e799297b642671d0665309db24297a",
-    "url": "/therealmvp.dev/static/media/mk.00e79929.svg"
+    "revision": "8f5b1d008569b8cc8a13aaec6279cdc4",
+    "url": "/therealmvp.dev/static/media/mk.8f5b1d00.svg"
   },
   {
     "revision": "db6c1c0dddd4c868e00a3cffa1078e49",
@@ -304,8 +316,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/therealmvp.dev/static/media/pwa.bd5f4148.png"
   },
   {
+    "revision": "bf236ba230db3b5da58cb8542c6d760c",
+    "url": "/therealmvp.dev/static/media/quantaleap.bf236ba2.png"
+  },
+  {
     "revision": "b9210e04e48ad03b6227fda111db7489",
     "url": "/therealmvp.dev/static/media/romi-logo.b9210e04.png"
+  },
+  {
+    "revision": "5a31f2370c8081282d766807cf94acd9",
+    "url": "/therealmvp.dev/static/media/shiftcrowd.5a31f237.png"
   },
   {
     "revision": "cef3ae2a288ebee3bff8511504e64bc8",

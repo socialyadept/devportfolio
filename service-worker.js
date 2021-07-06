@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/therealmvp.dev/precache-manifest.c230ad4e4e83f4dac438c968b8ab6e40.js"
+  "/therealmvp.dev/precache-manifest.4d45ac6f90981531278a8416e1f55265.js"
 );
 
 self.addEventListener('message', (event) => {
