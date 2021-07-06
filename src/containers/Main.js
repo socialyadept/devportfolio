@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
 import Splash from "../pages/splash/Splash";
 import Education from "../pages/education/EducationComponent";
@@ -13,7 +13,7 @@ import { settings } from "../portfolio.js";
 import { Suspense } from "react";
 const Home = React.lazy(() => import("../pages/home/HomeComponent"));
 
-export default class Main extends Component {
+export default class Main extends React.PureComponent {
   render() {
     if (settings.isSplash) {
       return (
