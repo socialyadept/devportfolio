@@ -2,14 +2,15 @@
   "private": true,
   "name": "mkfolio",
   "version": "1.0.0",
-  "homepage": "https://mkumail1.github.io/therealmvp.dev/",
+  "homepage": "https://muhammadkumail.com",
   "scripts": {
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject",
     "start": "react-scripts start",
-    "test": "react-scripts test"
+    "test": "react-scripts test",
+    "postbuild": "react-snap"
   },
   "dependencies": {
     "apollo-boost": "^0.4.4",
