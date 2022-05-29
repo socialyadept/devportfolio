@@ -1,0 +1,33 @@
+{
+  "name": "mkfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "babel-plugin-macros": "^3.1.0",
+    "baseui": "^9.116.3",
+    "bootstrap": "^4.4.1",
+    "chart.js": "^2.9.3",
+    "fs": "0.0.1-security",
+    "next": "11.1.2",
+    "react": "17.0.2",
+    "react-awesome-reveal": "^3.8.1",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-chartjs-2": "^2.9.0",
+    "react-dom": "17.0.2",
+    "styled-components": "^5.3.1",
+    "styletron-engine-atomic": "^1.4.8",
+    "styletron-react": "^6.0.2"
+  },
+  "devDependencies": {
+    "@iconify/icons-logos": "^1.2.6",
+    "@iconify/react": "^3.2.2",
+    "eslint": "^7.32.0",
+    "eslint-config-next": "11.1.2"
+  }
+}
