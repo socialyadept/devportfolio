@@ -32,7 +32,7 @@ export default class AddressImg extends Component {
           transform="translate(-93.27537 -144.85931)"
           fill="none"
           stroke={theme.text}
-          stroke-miterlimit="10"
+          strokeMiterlimit="10"
         />
         <rect
           x="303.45419"
