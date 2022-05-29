@@ -842,21 +842,27 @@ const blogs = {
     {
       title: "My first ever blog",
       date: "20-09-2020",
-      text: "abc",
+      text: `Medium is a social publishing platform that is open to all and home to a diverse array of stories, ideas, and perspectives. Anyone can be an individual contributor, and popular topics on Medium range from mental health to social media, and from world affairs and trending news to productivity hacks.
+
+      As Medium founder (and Blogger creator/Twitter co-founder) Ev Williams wrote when he first launched the platform in 2012`,
       image:
         "https://image.shutterstock.com/image-photo/islamabad-pakistan-april-25-2019-260nw-1407461093.jpg",
     },
     {
       title: "My second ever blog",
-      date: "20-09-2020",
-      text: "abc",
+      date: "21-11-2021",
+      text: `As a marketer, Medium presents an opportunity for you to reach a new audience with your content. The platform is geared toward sharing longer-form, more well-thought-out content. (But of course, given the open-to-all nature of Medium, that isn't the only type of content you find there.)
+
+      Whether you're looking into Medium for its publishing capabilities or you simply want to learn more about the platform before you set up an account and start exploring, you've come to the right place.`,
       image:
         "https://image.shutterstock.com/image-photo/islamabad-pakistan-april-25-2019-260nw-1407461093.jpg",
     },
     {
       title: "My third ever blog",
-      date: "20-09-2020",
-      text: "abc",
+      date: "05-12-2022",
+      text: `My recommendation: Sign up for Medium using Facebook. That way all of your existing connections from Facebook who are on Medium will automatically be following your account once it's created. This saves you the trouble of having to build up a new audience entirely from scratch.
+
+      Regardless of the option you go with to start, you can always link your Twitter or Facebook to your Medium account later via the "Connections" tab in the Settings menu:`,
       image:
         "https://image.shutterstock.com/image-photo/islamabad-pakistan-april-25-2019-260nw-1407461093.jpg",
     },
