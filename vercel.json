@@ -1,0 +1,8 @@
+{
+  "build": {
+    "env": {}
+  },
+  "github": {
+    "silent": true
+  }
+}
