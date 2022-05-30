@@ -40,8 +40,8 @@ class Education extends Component {
                     My Qualifications and Certifications
                   </h3>
                   <p>
-                    Here's what you need to know about my qualification
-                    background
+                    Here&apos;s what you need to know about my qualification and
+                    background{" "}
                     <span role="img" aria-label="blink">
                       😉
                     </span>
