@@ -111,6 +111,7 @@
     display: flex;
     justify-content: center;
   }
+
   .greeting-image-div > * {
     max-width: 80%;
     height: auto;

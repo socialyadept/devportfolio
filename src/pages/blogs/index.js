@@ -36,11 +36,7 @@ const BlogsComponent = ({ theme }) => {
                     {blogs["subtitle"]}
                   </p>
                   <div className={styles["blogsite-btn-div"]}>
-                    <Link href="/">
-                      <a style={{ textDecoration: "none" }}>
-                        <Button text="Visit back home" theme={theme} />
-                      </a>
-                    </Link>
+                    <Button text="Visit back home" href="/" theme={theme} />
                   </div>
                 </div>
                 <div className={styles["blog-heading-img-div"]}>
@@ -51,8 +47,14 @@ const BlogsComponent = ({ theme }) => {
             {/* Blogs card */}
             <Fade bottom duration={1000} distance="40px">
               <div className={styles["blogs-card-div"]}>
-                {blogs.section.map((blog) => {
-                  return <BlogCard blog={blog} theme={theme} />;
+                {blogs.section.map((blog, index) => {
+                  return (
+                    <BlogCard
+                      key={`${blog.title}_${index}`}
+                      blog={blog}
+                      theme={theme}
+                    />
+                  );
                 })}
               </div>
             </Fade>

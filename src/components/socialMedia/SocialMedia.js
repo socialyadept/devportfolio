@@ -5,10 +5,10 @@ import { Icon } from "@iconify/react";
 import styles from "./SocialMedia.module.css";
 
 const IconWrapper = styled.span`
-  i {
+  span {
     background-color: ${(props) => props.backgroundColor};
   }
-  &:hover i {
+  &:hover span {
     background-color: ${({ theme }) => theme.text};
     transition: 0.3s ease-in;
   }
@@ -27,9 +27,9 @@ export default function socialMedia({ theme, socialMediaLinks }) {
             key={index}
           >
             <IconWrapper {...media} {...theme} key={index}>
-              <i>
-                <Icon icon={`${media.fontAwesomeIcon}`} />
-              </i>
+              <span>
+                <Icon icon={media.fontAwesomeIcon} />
+              </span>
             </IconWrapper>
           </a>
         );

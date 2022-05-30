@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import styles from "./Header.module.css";
 import Link from "next/link";
+
 import { greeting } from "../../portfolio.js";
+import styles from "./Header.module.css";
 
 const navLinks = [
   {
