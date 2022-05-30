@@ -45,7 +45,7 @@ export default function Greeting(props) {
                   newTab={true}
                   href={"/resume"}
                   theme={theme}
-                  className={styles["portfolio-repo-btn"]}
+                  className="portfolio-repo-btn"
                 />
               </div>
             </div>

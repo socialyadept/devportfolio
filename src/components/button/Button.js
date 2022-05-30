@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 import styles from "./Button.module.css";
 
@@ -14,23 +15,24 @@ const onMouseOut = (event, color, bgColor) => {
   el.style.backgroundColor = bgColor;
 };
 
-export default function Button({ text, className, href, newTab, theme }) {
+export default function Button({ text, className = "", href, newTab, theme }) {
   return (
     <div className={styles[className]}>
-      <a
-        className={styles["main-button"]}
-        href={href}
-        target={newTab && "_blank"}
-        style={{
-          color: theme.body,
-          backgroundColor: theme.text,
-          border: `solid 1px ${theme.text}`,
-        }}
-        onMouseEnter={(event) => onMouseEnter(event, theme.text, theme.body)}
-        onMouseOut={(event) => onMouseOut(event, theme.body, theme.text)}
-      >
-        {text}
-      </a>
+      <Link href={href}>
+        <a
+          target={newTab && "_blank"}
+          style={{
+            color: theme.body,
+            backgroundColor: theme.text,
+            border: `solid 1px ${theme.text}`,
+          }}
+          className={styles["main-button"]}
+          onMouseEnter={(event) => onMouseEnter(event, theme.text, theme.body)}
+          onMouseOut={(event) => onMouseOut(event, theme.body, theme.text)}
+        >
+          {text}
+        </a>
+      </Link>
     </div>
   );
 }

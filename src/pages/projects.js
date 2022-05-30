@@ -48,8 +48,14 @@ class Projects extends Component {
             </Zoom>
           </div>
           <div className={styles["repo-cards-div-main"]}>
-            {ProjectsData.data.map((repo) => {
-              return <GithubRepoCard repo={repo} theme={theme} />;
+            {ProjectsData.data.map((repo, i) => {
+              return (
+                <GithubRepoCard
+                  key={`repo_id_${i}`}
+                  repo={repo}
+                  theme={theme}
+                />
+              );
             })}
           </div>
           <Button

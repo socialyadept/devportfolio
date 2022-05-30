@@ -15,7 +15,6 @@ export default function GithubRepoCard({ repo, theme }) {
       <Fade bottom duration={2000} distance="40px">
         <div
           className={styles["repo-card-div"]}
-          key={repo.id}
           onClick={() => openRepoinNewTab(repo.url)}
           style={{ backgroundColor: theme.highlight }}
         >
