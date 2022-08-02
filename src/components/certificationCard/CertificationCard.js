@@ -8,7 +8,7 @@ class CertificationCard extends Component {
     const certificate = this.props.certificate;
     const theme = this.props.theme;
     return (
-      <Fade bottom duration={2000} distance="20px">
+      <Fade direction="up" duration={2000} distance="20px" triggerOnce>
         <div className={styles["cert-card"]}>
           <div className={styles["content"]}>
             <a

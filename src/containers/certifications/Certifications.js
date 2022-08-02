@@ -10,11 +10,9 @@ class Certifications extends Component {
     return (
       <div className="main" id="certs">
         <div className={styles["certs-header-div"]}>
-          {/* <Fade bottom duration={2000} distance="20px"> */}
           <h1 className={styles["certs-header"]} style={{ color: theme.text }}>
             Certifications
           </h1>
-          {/* </Fade> */}
         </div>
         <div className={styles["certs-body-div"]}>
           {certifications.certifications.map((cert, index) => {
