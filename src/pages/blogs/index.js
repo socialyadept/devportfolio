@@ -45,7 +45,7 @@ const BlogsComponent = ({ theme }) => {
               </div>
             </Zoom>
             {/* Blogs card */}
-            <Fade bottom duration={1000} distance="40px">
+            <Fade direction="up" duration={1000} distance="40px" triggerOnce>
               <div className={styles["blogs-card-div"]}>
                 {blogs.section.map((blog, index) => {
                   return (

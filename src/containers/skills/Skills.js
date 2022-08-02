@@ -8,7 +8,12 @@ export default function Skills(props) {
   return (
     <div className={styles["main"]} id="skills">
       <div className={styles["skills-header-div"]}>
-        <Fade bottom duration={2000} distance="20px">
+        <Fade
+          direction="bottom-left"
+          duration={2000}
+          distance="20px"
+          triggerOnce
+        >
           <h1 className={styles["skills-header"]} style={{ color: theme.text }}>
             What I Do?
           </h1>
@@ -16,12 +21,12 @@ export default function Skills(props) {
             className={styles["skills-description"]}
             style={{ color: theme.secondaryText }}
           >
-            I love to freelance and to help in growing my clients' business{" "}
+            I love to work contractually helping to growing my clients' business
             <span role="img" aria-label="hand-shake">
               🤝
             </span>
             <br />
-            My development stack is as follows:
+            My tech stack is as follows:
           </p>
         </Fade>
       </div>

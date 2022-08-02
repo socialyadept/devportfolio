@@ -1,8 +1,8 @@
 import React, { Component } from "react";
+import { Accordion, Panel } from "baseui/accordion";
 
 import ExperienceCard from "components/experienceCard/ExperienceCard.js";
 import styles from "./ExperienceAccordion.module.css";
-import { Accordion, Panel } from "baseui/accordion";
 
 class ExperienceAccordion extends Component {
   render() {

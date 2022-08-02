@@ -21,7 +21,7 @@ class Projects extends Component {
         />
         <div className={styles["projects-main"]}>
           <div className={styles["basic-projects"]}>
-            <Zoom duration={1000}>
+            <Zoom duration={1000} triggerOnce>
               <div className={styles["projects-heading-div"]}>
                 <div className={styles["projects-heading-img-div"]}>
                   {/* <img

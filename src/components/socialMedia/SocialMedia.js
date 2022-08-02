@@ -27,8 +27,12 @@ export default function socialMedia({ theme, socialMediaLinks }) {
             key={index}
           >
             <IconWrapper {...media} {...theme} key={index}>
+              {/* <i className={`${media.fontAwesomeIcon}`}></i> */}
               <span>
-                <Icon icon={media.fontAwesomeIcon} />
+                <Icon
+                  icon={media.fontAwesomeIcon}
+                  style={{ backgroundColor: theme.backgroundColor }}
+                />
               </span>
             </IconWrapper>
           </a>

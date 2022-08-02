@@ -21,7 +21,7 @@ class Education extends Component {
         />
         <div className={styles["education-main"]}>
           <div className={styles["basic-education"]}>
-            <Zoom duration={1000}>
+            <Zoom duration={1000} triggerOnce>
               <div className={styles["heading-div"]}>
                 <div className={styles["heading-img-div"]}>
                   <EducationImg theme={theme} />

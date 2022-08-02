@@ -13,7 +13,7 @@ export default function Greeting(props) {
   const theme = props.theme;
 
   return (
-    <Fade bottom duration={2000} distance="40px">
+    <Fade direction="bottom" duration={2000} triggerOnce distance="40px">
       <div className={styles["greet-main"]} id="greeting">
         <div className={styles["greeting-main"]}>
           <div className={styles["greeting-text-div"]}>

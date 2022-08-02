@@ -148,11 +148,13 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive websites using React-Redux.js | HTML/CSS | Bootstrap | Scemantic UI",
+        "⚡ Building responsive websites using React-Redux.js | HTML/CSS | TailwindCSS | Bootstrap | Scemantic UI | Theme UI | Material UI | Core UI",
+        "⚡ Writing smart contracts using Solidity (Polygon, Ethereum) | Moralis | Web 3.0",
         "⚡ Creating Single page rendering applications using Redux and HooksJs",
-        "⚡ Developing mobile applications using React Native and Flutter",
+        "⚡ Developing cross-platform mobile applications using React Native and Flutter",
         "⚡ Creating optimized application backends in Node.js, Express.js and PHP",
         "⚡ Experience in usage of Rest APIs in modern programming practices",
+        "⚡ Building secure authentication using JWT, Passport, Cognito, Auth0",
       ],
       softwareSkills: [
         {
@@ -184,12 +186,27 @@ const skills = {
           },
         },
         {
+          skillName: "Blockchain",
+          fontAwesomeClassname: "eos-icons:blockchain",
+          style: {
+            color: "orange",
+          },
+        },
+        {
+          skillName: "Solidity",
+          fontAwesomeClassname: "logos:solidity",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
           skillName: "JavaScript",
           fontAwesomeClassname: "logos:javascript",
           style: {
             color: "#F7DF1E",
           },
         },
+
         {
           skillName: "ReactJS",
           fontAwesomeClassname: "simple-icons:react",
@@ -251,6 +268,7 @@ const skills = {
         "⚡ Enabling secure connection with IP access restrictions",
         "⚡ Storing data over uniquely modelled bucket lists from backend",
         "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Building serverless systems using Lambda, Amplify and Cognito",
       ],
       softwareSkills: [
         {
@@ -417,7 +435,7 @@ const degrees = {
       subtitle: "Bachelor's in Computer Sciences",
       logo_path: "nust-logo.png",
       alt_name: "NUST - Islamabad",
-      duration: "2018 - Present",
+      duration: "Sep 2018 - Aug 2022",
       descriptions: [
         "⚡ Gained deep insights of fundamental software engineering courses like DS, Algorithms, DBMS, OS, Advanced Programming, Artificial Intelligence etc.",
         "⚡ The transparent methodology of providing diversity and building confidence by NUST has helped to develop me as a person not to forget mentioning the community bonding techniques that talks about growth",
@@ -431,7 +449,7 @@ const degrees = {
       subtitle: "Intermediate and Primary",
       logo_path: "haps-logo.svg",
       alt_name: "HAPSAC",
-      duration: "2006 - 2018",
+      duration: "Sep 2006 - May 2018",
       descriptions: [
         "⚡ Shortlisted as House Captain for school disciplines for two times in a row",
         "⚡ Swiftly conducted sports and other extra-curricular events in college",
@@ -625,25 +643,24 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have worked with many evolving Start-ups as a Full Stack Developer, Designer and a Software Architect. I have also worked with some well-established companies as Software Quality Assurance Trainee. I have also given my services as a Project Manager for an International Company. The best part is that I love giving back to the people what I have learned so far. So, organising events and fundraising is what I do voluntarity. From Personally conducting hackathons to mentoring students as a Microsoft representative I have built empowering tech communities that benefits more than 3000 people across the country on a daily basis.",
+    "I have worked with many evolving Start-ups over various roles including Full Stack Developer, Designer and a Software Architect. Its been 3 years of husstle that has made be capable of building solutions at scale. The experience includes working with Unicorns, Coorporates, and Startups. Having the urge of giving back to people I teach students in my freetime, and raise funds for the deserving lads. From personally conducting hackathons to mentoring students as a Developer Advocate I have built empowering tech communities which benefits more than 3000 people across the country on a daily basis.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work",
       experiences: [
         {
-          title: "Software and Machine Learning Engineer",
-          company: "Quantaleap, Netherlands",
-          company_url: "https://quantaleap.eu/",
-          logo_path: "quantaleap.png",
-          duration: "June 2021 - August 2021",
-          location: "Remote Work",
-          description:
-            "Developing cloud solutions for enterprise and enabling cloud automation with just one click of a button. Working on project that involves Data engineering and data feeding for controlling of instances. Finally using serverless computing to build a handsome product. Main build tools involved adobe XD, AI, AWS, Azure, GCP, MERN, and Redux.",
+          title: "Software Engineer",
+          company: "Devsinc, Santa Clara, US",
+          company_url: "https://devsinc.com/",
+          logo_path: "devsinc-logo.jpeg",
+          duration: "Apr 2022 - present",
+          location: "Islamabad / Remote",
+          description: `-	Responsible for developing full-stack solutions in MERN stack, NextJs and AWS ecosystem. \n-	Communicating with clients for scrum support and building high scaled projects.\n-	Worked collaboratively with QAs, development, and business groups to complete comprehensive testing on major software release.\n-	Consistently recognized for excellent problem solving and analytical skills by stakeholders.`,
           color: "#0879bf",
         },
         {
-          title: "Freelancer: Full Stack (MERN) and DevOps",
+          title: "Top-Rated Full Stack (MERN) and DevOps Engineer",
           company: "Upwork",
           company_url:
             "https://www.upwork.com/o/profiles/users/~01d6588c289ac050a4/",
@@ -651,7 +668,17 @@ const experience = {
           duration: "Mar 2021 - present",
           location: "Remote Work",
           description:
-            "Selling services of Full Stack solutions in MERN and NextJs. One of the fatest growing freelancers on Upwork with 5 star feedback. Retaining almost every client that I have worked with so far. Further selling the art of continuous integration and continuous development on major cloud platforms such as AWS, GCP, MS Azure, Heroku, Digital Ocean.",
+            "-	Sold services of Full Stack solutions in MERN, NextJs, AWS, Serverless amd CMS builders. \n-	Ranked among the fatest growing freelancers on Upwork with 5 star feedback. \n-	Retaining almost every client that I ever worked with.\n-	Sold the art of continuous integration and continuous development on major cloud platforms such as AWS, GCP, MS Azure, Heroku, Digital Ocean.",
+          color: "#0879bf",
+        },
+        {
+          title: "Software and Machine Learning Engineer",
+          company: "Quantaleap, Netherlands",
+          company_url: "https://quantaleap.eu/",
+          logo_path: "quantaleap.png",
+          duration: "June 2021 - August 2021",
+          location: "Remote Work",
+          description: `-	Created workflows triggers using React ecosystem. Applied cost-benefit analysis to obtain security and compliance tests helping the product to scale 20% faster.\n-	Performed an in-depth comparison using fit-gap analysis between functional and non-functional requirements of building workflows, which saved 4 months of development time.\n-	Implemented CI/CD using GitHub Actions on Azure.\n-	Applied DevOps cycle (trigger-build-production) pipelining and unit testing using ARM configuration.\n-	Anticipated in different domains which involved feeding and engineering data to control virtual instances.\n-	Applied serverless use cases to build the MVP.\n-	Main build tools involved adobe XD, AI, Azure, GCP, MERN, and Redux.`,
           color: "#0879bf",
         },
         {
@@ -828,44 +855,43 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects involve use of various tech architectures and tools including ReactJs, NextJs, Redux, Hooks, Nodejs, ExpressJs, MongoDB, HTML/CSS, C/C++, Android Apps in Java, and Python. My best experience is to create Full stack applications and deploy them using an efficient cloud infrastructure.",
+    "Over the years I have used various tech architectures and tools including ReactJs, NextJs, Redux, Hooks, Nodejs, ExpressJs, MongoDB, HTML/CSS, C/C++, Python, Solidity, Android Apps in Java, Flutter, Firebase, and React Native. I have mixed the blends of different technologies to solve coupling problems of a particular framework. Having versatility has brought me to the forefront of the industry and I am currently working on a projects that will be a part of the next big assests in the market.",
   avatar_image_path: "projects_image.svg",
 };
 
 const blogs = {
   title: "Blogs",
   subtitle:
-    "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character. This part is coming soon feel free to reach out again for follow up 😉",
+    "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character. Feel free to reach give them a quick read 😉",
   link: "/",
   avatar_image_path: "blogs_image.svg",
   section: [
     {
-      title: "My first ever blog",
-      date: "20-09-2020",
-      text: `Medium is a social publishing platform that is open to all and home to a diverse array of stories, ideas, and perspectives. Anyone can be an individual contributor, and popular topics on Medium range from mental health to social media, and from world affairs and trending news to productivity hacks.
+      title: "Is Bun the Next Big Thing in Javascript ecosystem?",
+      date: "12-07-2022",
+      text: `As the technologies evolve, we are seeing a major paradigm shift in the Javascript's runtime ecosystem. Bun just launched their beta and has claimed some promising results.
 
-      As Medium founder (and Blogger creator/Twitter co-founder) Ev Williams wrote when he first launched the platform in 2012`,
-      image:
-        "https://image.shutterstock.com/image-photo/islamabad-pakistan-april-25-2019-260nw-1407461093.jpg",
+      Players like 'Rust', 'Go' and 'Zig' are giving a very tough competition to Javascript's native bundlers such as Webpack and Babel. So, what exactly does these languages provide?`,
+      url: "https://medium.com/@kumailrants/is-bun-the-next-big-thing-in-javascript-ae0aa1e4f901",
     },
-    {
-      title: "My second ever blog",
-      date: "21-11-2021",
-      text: `As a marketer, Medium presents an opportunity for you to reach a new audience with your content. The platform is geared toward sharing longer-form, more well-thought-out content. (But of course, given the open-to-all nature of Medium, that isn't the only type of content you find there.)
+    // {
+    //   title: "My second ever blog",
+    //   date: "21-11-2021",
+    //   text: `As a marketer, Medium presents an opportunity for you to reach a new audience with your content. The platform is geared toward sharing longer-form, more well-thought-out content. (But of course, given the open-to-all nature of Medium, that isn't the only type of content you find there.)
 
-      Whether you're looking into Medium for its publishing capabilities or you simply want to learn more about the platform before you set up an account and start exploring, you've come to the right place.`,
-      image:
-        "https://image.shutterstock.com/image-photo/islamabad-pakistan-april-25-2019-260nw-1407461093.jpg",
-    },
-    {
-      title: "My third ever blog",
-      date: "05-12-2022",
-      text: `My recommendation: Sign up for Medium using Facebook. That way all of your existing connections from Facebook who are on Medium will automatically be following your account once it's created. This saves you the trouble of having to build up a new audience entirely from scratch.
+    //   Whether you're looking into Medium for its publishing capabilities or you simply want to learn more about the platform before you set up an account and start exploring, you've come to the right place.`,
+    //   image:
+    //     "https://image.shutterstock.com/image-photo/islamabad-pakistan-april-25-2019-260nw-1407461093.jpg",
+    // },
+    // {
+    //   title: "My third ever blog",
+    //   date: "05-12-2022",
+    //   text: `My recommendation: Sign up for Medium using Facebook. That way all of your existing connections from Facebook who are on Medium will automatically be following your account once it's created. This saves you the trouble of having to build up a new audience entirely from scratch.
 
-      Regardless of the option you go with to start, you can always link your Twitter or Facebook to your Medium account later via the "Connections" tab in the Settings menu:`,
-      image:
-        "https://image.shutterstock.com/image-photo/islamabad-pakistan-april-25-2019-260nw-1407461093.jpg",
-    },
+    //   Regardless of the option you go with to start, you can always link your Twitter or Facebook to your Medium account later via the "Connections" tab in the Settings menu:`,
+    //   image:
+    //     "https://image.shutterstock.com/image-photo/islamabad-pakistan-april-25-2019-260nw-1407461093.jpg",
+    // },
   ],
 };
 

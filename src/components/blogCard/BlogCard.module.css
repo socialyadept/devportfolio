@@ -10,6 +10,10 @@
   box-sizing: border-box;
 }
 
+.text-decoration {
+  text-decoration: none;
+}
+
 .blog-card-date {
   font-family: "Google Sans Regular";
   font-weight: 400;
@@ -21,7 +25,6 @@
 .blog-card-title {
   white-space: nowrap;
   text-overflow: ellipsis;
-  color: rgb(36, 41, 46);
   font-family: "Google Sans Regular";
   margin-bottom: 0.75rem;
   font-size: 25px;
@@ -31,6 +34,7 @@
   line-height: 1.2;
   margin: 0px;
 }
+
 .blog-card-text {
   overflow: hidden;
   text-align: left;
@@ -47,9 +51,11 @@
   text-decoration: none;
   display: block;
   margin-top: 20px;
-  font-family: "Google sans";
   font-size: 15px;
   cursor: pointer;
+}
+.blog-div-url:hover {
+  text-decoration: underline;
 }
 
 .blog-card-div:after {
@@ -63,7 +69,7 @@
   z-index: -1;
   transform-origin: 0% 0%;
   transform: translateX(calc(-130% - 0px)) translateY(10%) rotate(45deg);
-  transition: transform 0.5s ease;
+  transition: transform 0.8s ease;
 }
 .blog-card-div:hover::after {
   transform: translateY(-100%) translateX(-50px) rotate(45deg);
