@@ -855,7 +855,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "Over the years I have used various tech architectures and tools including ReactJs, NextJs, Redux, Hooks, Nodejs, ExpressJs, MongoDB, HTML/CSS, C/C++, Python, Solidity, Android Apps in Java, Flutter, Firebase, and React Native. I have mixed the blends of different technologies to solve coupling problems of a particular framework. Having versatility has brought me to the forefront of the industry and I am currently working on a projects that will be a part of the next big assests in the market.",
+    "Over the years I have used various tech architectures and tools comprising ReactJs, NextJs, Redux, Hooks, Nodejs, ExpressJs, MongoDB, HTML/CSS, C/C++, Python, Solidity, Android Apps in Java, Flutter, Firebase, and React Native. I have mixed the blends of different technologies into microservices to solve coupling problems of a particular framework. Having versatility has brought me to the forefront of the industry and I am currently working on projects that will be part of the next major breakthroughs in the industry.",
   avatar_image_path: "projects_image.svg",
 };
 
