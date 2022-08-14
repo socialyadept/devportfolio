@@ -874,15 +874,12 @@ const blogs = {
       Players like 'Rust', 'Go' and 'Zig' are giving a very tough competition to Javascript's native bundlers such as Webpack and Babel. So, what exactly does these languages provide?`,
       url: "https://medium.com/@kumailrants/is-bun-the-next-big-thing-in-javascript-ae0aa1e4f901",
     },
-    // {
-    //   title: "My second ever blog",
-    //   date: "21-11-2021",
-    //   text: `As a marketer, Medium presents an opportunity for you to reach a new audience with your content. The platform is geared toward sharing longer-form, more well-thought-out content. (But of course, given the open-to-all nature of Medium, that isn't the only type of content you find there.)
-
-    //   Whether you're looking into Medium for its publishing capabilities or you simply want to learn more about the platform before you set up an account and start exploring, you've come to the right place.`,
-    //   image:
-    //     "https://image.shutterstock.com/image-photo/islamabad-pakistan-april-25-2019-260nw-1407461093.jpg",
-    // },
+    {
+      title: "United Nations Acedamic Impact proudly present MUHAMMAD KUMAIL",
+      date: "09-11-2019",
+      text: `Millennium Fellowship for me is something more than an opportunity to make a social impact. It's an incubator that not only breaths life into revolutionary initiatives, but also connects me with inspiring, like-minded individuals from all walks of life.`,
+      url: "https://www.millenniumfellows.org/fellow/2019/nust-pk/muhammad-kumail",
+    },
     // {
     //   title: "My third ever blog",
     //   date: "05-12-2022",
