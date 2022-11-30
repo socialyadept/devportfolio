@@ -19,7 +19,7 @@ class Experience extends Component {
         />
         <div className={styles["experience-main"]}>
           <div className={styles["basic-experience"]}>
-            <Zoom duration={1000}>
+            <Zoom duration={1000} triggerOnce>
               <div className={styles["experience-heading-div"]}>
                 <div className={styles["experience-heading-img-div"]}>
                   <ExperienceImg theme={theme} />

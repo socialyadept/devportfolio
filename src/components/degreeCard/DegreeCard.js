@@ -9,7 +9,7 @@ class DegreeCard extends Component {
     const theme = this.props.theme;
     return (
       <div className={styles["degree-card"]}>
-        <Flip left duration={2000}>
+        <Flip duration={2000} direction="horizontal" triggerOnce>
           <div className={styles["card-img"]}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img

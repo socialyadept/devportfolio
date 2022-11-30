@@ -1,10 +1,11 @@
 import { ThemeProvider } from "styled-components";
 import { chosenTheme } from "theme";
+import { BaseProvider, LightTheme } from "baseui";
+import { Provider as StyletronProvider } from "styletron-react";
+
 import Layout from "../layout/layout";
 import "../styles/globals.css";
 import { GlobalStyles } from "../global";
-import { BaseProvider, LightTheme } from "baseui";
-import { Provider as StyletronProvider } from "styletron-react";
 import { styletron } from "../../styletron";
 
 function MyApp({ Component, pageProps }) {

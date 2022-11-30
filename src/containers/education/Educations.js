@@ -11,7 +11,7 @@ class Educations extends Component {
     return (
       <div className={styles["main"]} id="educations">
         <div className={styles["educations-header-div"]}>
-          <Fade bottom duration={2000} distance="20px">
+          <Fade bottom duration={2000} distance="20px" triggerOnce>
             <h1
               className={styles["educations-header"]}
               style={{ color: theme.text }}

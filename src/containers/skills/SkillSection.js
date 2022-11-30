@@ -1,8 +1,10 @@
 import React, { Component } from "react";
+import { Fade } from "react-awesome-reveal";
+
 import styles from "./Skills.module.css";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import { skills } from "../../portfolio";
-import { Fade } from "react-awesome-reveal";
+
 import DataScienceImg from "./DataScienceImg";
 import FullStackImg from "./FullStackImg";
 import CloudInfraImg from "./CloudInfraImg";
@@ -26,14 +28,14 @@ class SkillSection extends Component {
         {skills.data.map((skill, index) => {
           return (
             <div className={styles["skills-main-div"]} key={index}>
-              <Fade bottom duration={1000}>
+              <Fade duration={1000} triggerOnce>
                 <div className={styles["skills-image-div"]}>
                   <GetSkillSvg fileName={skill.fileName} theme={theme} />
                 </div>
               </Fade>
 
               <div className={styles["skills-text-div"]}>
-                <Fade bottom duration={1000}>
+                <Fade duration={1000} direction="left" triggerOnce>
                   <h1
                     className={styles["skills-heading"]}
                     style={{ color: theme.text }}
@@ -41,10 +43,10 @@ class SkillSection extends Component {
                     {skill.title}
                   </h1>
                 </Fade>
-                <Fade bottom duration={1500}>
+                <Fade duration={1500} triggerOnce>
                   <SoftwareSkill logos={skill.softwareSkills} />
                 </Fade>
-                <Fade bottom duration={2000}>
+                <Fade duration={1800} direction="right" triggerOnce>
                   <div>
                     {skill.skills.map((skillSentence, key) => {
                       return (
