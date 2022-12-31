@@ -11,7 +11,7 @@ const greeting = {
   logo_name: "Muhammad Kumail",
   nickname: "",
   subTitle:
-    "A full stack developer (MERN) 💻 - A student mentor 👨‍🏫 - Public Speaker 🎤",
+    "A full stack developer (MERN) 💻 - Solution Consultant 👨‍🏫 - Public Speaker 🎤",
   resumeLink:
     "https://drive.google.com/file/d/1eP9O3EAZMfRrqqTXlDFeCJkU5WjyhWYz/view?usp=sharing",
   portfolio_repository: "https://github.com/mkumail1/therealmvp.dev",
