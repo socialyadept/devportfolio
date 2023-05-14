@@ -11,7 +11,7 @@ const greeting = {
   logo_name: "Muhammad Kumail",
   nickname: "",
   subTitle:
-    "A full stack developer (MERN) 💻 - Solution Consultant 👨‍🏫 - Public Speaker 🎤",
+    "A full stack engineer (MERN) 💻 - Public Speaker 🎤 - Researcher 👨‍🏫",
   resumeLink:
     "https://drive.google.com/file/d/1eP9O3EAZMfRrqqTXlDFeCJkU5WjyhWYz/view?usp=sharing",
   portfolio_repository: "https://github.com/mkumail1/therealmvp.dev",
@@ -643,32 +643,20 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have worked with many evolving Start-ups over various roles including Full Stack Developer, Designer and a Software Architect. Its been 3 years of husstle that has made be capable of building solutions at scale. The experience includes working with Unicorns, Coorporates, and Startups. Having the urge of giving back to people I teach students in my freetime, and raise funds for the deserving lads. From personally conducting hackathons to mentoring students as a Developer Advocate I have built empowering tech communities which benefits more than 3000 people across the country on a daily basis.",
+    "I am working as a Senior Software Engineer as a Full Stack Developer, Designer and a Software Architect. Its been 3 years of dedication that has made me capable of building solutions at scale. I am in Love with building research driven innovative solutions from scratch. Having the urge of giving back to people I teach students in my freetime, and raise funds for the deserving lads. From personally conducting hackathons to mentoring students as a Developer Advocate I have built empowering tech communities benefitting thousands of people across Pakistan.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work",
       experiences: [
         {
-          title: "Software Engineer",
-          company: "Devsinc, Santa Clara, US",
+          title: "Senior Software Engineer",
+          company: "Devsinc, Islamabad",
           company_url: "https://devsinc.com/",
           logo_path: "devsinc-logo.jpeg",
           duration: "Apr 2022 - present",
           location: "Islamabad / Remote",
           description: `-	Responsible for developing full-stack solutions in MERN stack, NextJs and AWS ecosystem. \n-	Communicating with clients for scrum support and building high scaled projects.\n-	Worked collaboratively with QAs, development, and business groups to complete comprehensive testing on major software release.\n-	Consistently recognized for excellent problem solving and analytical skills by stakeholders.`,
-          color: "#0879bf",
-        },
-        {
-          title: "Top-Rated Full Stack (MERN) and DevOps Engineer",
-          company: "Upwork",
-          company_url:
-            "https://www.upwork.com/o/profiles/users/~01d6588c289ac050a4/",
-          logo_path: "upwork.png",
-          duration: "Mar 2021 - present",
-          location: "Remote Work",
-          description:
-            "-	Sold services of Full Stack solutions in MERN, NextJs, AWS, Serverless amd CMS builders. \n-	Ranked among the fatest growing freelancers on Upwork with 5 star feedback. \n-	Retaining almost every client that I ever worked with.\n-	Sold the art of continuous integration and continuous development on major cloud platforms such as AWS, GCP, MS Azure, Heroku, Digital Ocean.",
           color: "#0879bf",
         },
         {
@@ -682,17 +670,6 @@ const experience = {
           color: "#0879bf",
         },
         {
-          title: "Project Manager",
-          company: "Shift Crowd, United Kingdom",
-          company_url: "https://shiftcrowd.co.uk/",
-          logo_path: "shiftcrowd.png",
-          duration: "Dec 2020 - Mar 2021",
-          location: "Remote Work",
-          description:
-            "Responsible for developing Enterprise level projects in MERN stack. Worked with diversified team from all across Europe remotely from home. Used applications of redux and hooks to build scalable solutions in React. Lead the team as Scrum and automation master, achieved customer satisfaction with continuous integration. Helped me build strong leadership roles in mounting big projects.",
-          color: "#0879bf",
-        },
-        {
           title: "Open Source Developer",
           company: "Student CodeIn",
           company_url: "https://scodein.tech/",
@@ -703,17 +680,6 @@ const experience = {
             "Open Source project aimed to connect patients with doctors helping people psychologically by giving them advice. Mainly contributed to the project over MERN as the web stack. Resolved the issues of setting up the express server, contact us rendering, and form validation. I was involved in the team to help them build an optimized architecture. Core benefit: Reaching remote people deprived of good medical facilities.",
           color: "#0879bf",
         },
-        // {
-        //   title: "Android and ML Developer",
-        //   company: "Muffito Incorporation",
-        //   company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-        //   logo_path: "muffito_logo.png",
-        //   duration: "May 2018 - Oct 2018",
-        //   location: "Pune, Maharashtra",
-        //   description:
-        //     "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-        //   color: "#9b1578",
-        // },
       ],
     },
     {
@@ -773,7 +739,7 @@ const experience = {
           company: "Microsoft",
           company_url: "https://studentambassadors.microsoft.com/",
           logo_path: "microsoft_logo.png",
-          duration: "Aug 2020 - present",
+          duration: "Aug 2020 - June 2022",
           location: "NUST, Islamabad",
           description:
             "Microsoft Student Ambassador is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops of GitHub and seminars to teach Cloud Computing concepts to students.",

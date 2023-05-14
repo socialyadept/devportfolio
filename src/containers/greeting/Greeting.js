@@ -3,11 +3,11 @@ import Image from "next/image";
 import { Fade } from "react-awesome-reveal";
 
 import styles from "./Greeting.module.css";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
-import Button from "../../components/button/Button";
-import { greeting, socialMediaLinksHome } from "../../portfolio";
+import SocialMedia from "components/socialMedia/SocialMedia";
+import Button from "components/button/Button";
+import { greeting, socialMediaLinksHome } from "portfolio";
 import MKImage from "../../../public/images/mk.svg";
-// import FeelingProud from "../../atoms/FeelingProud";
+import FeelingProud from "atoms/FeelingProud";
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -54,8 +54,8 @@ export default function Greeting(props) {
             {/* <img
               alt="saad sitting on table"
               src={require("../../assests/images/feelingProud.svg")}
-            ></img>
-            <FeelingProud theme={theme} /> */}
+            ></img> */}
+            {/* <FeelingProud theme={theme} /> */}
             <Image
               className={styles["myimage"]}
               height={450}

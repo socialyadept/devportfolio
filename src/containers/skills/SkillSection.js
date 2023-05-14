@@ -35,7 +35,7 @@ class SkillSection extends Component {
               </Fade>
 
               <div className={styles["skills-text-div"]}>
-                <Fade duration={1000} direction="left" triggerOnce>
+                <Fade duration={1000} direction="down" triggerOnce>
                   <h1
                     className={styles["skills-heading"]}
                     style={{ color: theme.text }}
@@ -46,7 +46,7 @@ class SkillSection extends Component {
                 <Fade duration={1500} triggerOnce>
                   <SoftwareSkill logos={skill.softwareSkills} />
                 </Fade>
-                <Fade duration={1800} direction="right" triggerOnce>
+                <Fade duration={1800} direction="up" triggerOnce>
                   <div>
                     {skill.skills.map((skillSentence, key) => {
                       return (

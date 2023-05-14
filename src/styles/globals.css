@@ -40,10 +40,6 @@
   src: local("Google Sans Regular"),
     url("../assests/fonts/GoogleSans-Regular.ttf") format("woff");
 }
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
 html,
 body {
   scroll-behavior: smooth;
