@@ -23,17 +23,21 @@
 .blog-subtitle {
   text-transform: uppercase;
 }
+
 .blog-main-div > * {
   flex: 1;
   margin-bottom: 30px;
 }
+
 .blog-main-div {
   display: flex;
 }
+
 .blog-image-div > img {
   max-width: 100%;
   height: auto;
 }
+
 .blog-text-div {
   display: flex;
   justify-content: space-around;

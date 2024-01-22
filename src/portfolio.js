@@ -833,6 +833,14 @@ const blogs = {
   avatar_image_path: "blogs_image.svg",
   section: [
     {
+      title: "Windows vs Mac (Mx chip) which one is better for Engineers?",
+      date: "21-01-2024",
+      text: `The recent arrival of Apple's Mx chips has sent shockwaves through the tech world, rewriting benchmark leaderboards and raising the bar for both performance and energy efficiency. However, beneath the impressive headline figures lies a more nuanced story, particularly when it comes to the needs of software engineers and data scientists.`,
+      image:
+        "https://image.shutterstock.com/image-photo/islamabad-pakistan-april-25-2019-260nw-1407461093.jpg",
+      url: "https://medium.com/@kumailrants/windows-vs-mac-mx-chip-which-one-is-better-for-engineers-c2801efbdf43",
+    },
+    {
       title: "Is Bun the Next Big Thing in Javascript ecosystem?",
       date: "12-07-2022",
       text: `As the technologies evolve, we are seeing a major paradigm shift in the Javascript's runtime ecosystem. Bun just launched their beta and has claimed some promising results.
@@ -846,15 +854,6 @@ const blogs = {
       text: `Millennium Fellowship for me is something more than an opportunity to make a social impact. It's an incubator that not only breaths life into revolutionary initiatives, but also connects me with inspiring, like-minded individuals from all walks of life.`,
       url: "https://www.millenniumfellows.org/fellow/2019/nust-pk/muhammad-kumail",
     },
-    // {
-    //   title: "My third ever blog",
-    //   date: "05-12-2022",
-    //   text: `My recommendation: Sign up for Medium using Facebook. That way all of your existing connections from Facebook who are on Medium will automatically be following your account once it's created. This saves you the trouble of having to build up a new audience entirely from scratch.
-
-    //   Regardless of the option you go with to start, you can always link your Twitter or Facebook to your Medium account later via the "Connections" tab in the Settings menu:`,
-    //   image:
-    //     "https://image.shutterstock.com/image-photo/islamabad-pakistan-april-25-2019-260nw-1407461093.jpg",
-    // },
   ],
 };
 
