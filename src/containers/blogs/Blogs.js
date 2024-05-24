@@ -15,6 +15,7 @@ export default function Blogs() {
           {blogSection.blogs.map((blog) => {
             return (
               <BlogCard
+                key={blog.title}
                 blog={{
                   url: blog.url,
                   image: blog.image,

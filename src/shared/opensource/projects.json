@@ -30,7 +30,7 @@
       "id": "MDEwOlJlcG9zaXRvcnkxNTU5NTE3NTk=",
       "name": "BaatCheet",
       "createdAt": "Apr 2019",
-      "url": "https://github.com/mkumail1/baatcheetfinal",
+      "url": "https://github.com/socialyadept/baatcheetfinal",
       "description": "An Android based chat application where you can exchange messages and express your feelings using emojis in realtime. Exclusively deployed on the fast servers of firebase",
       "isFork": false,
       "languages": [
@@ -52,7 +52,7 @@
       "id": "MDEwOlJlcG9zaXRvcnkyNzM1MTI1NTE=",
       "name": "AWS Community Pakistan",
       "createdAt": "July 2020",
-      "url": "https://github.com/mkumail1/AWSCommunity",
+      "url": "https://github.com/socialyadept/AWSCommunity",
       "description": "AWS Community Pakistan's website to showcase AWS community Ambassadors and other AWS Events that seems to happen in Pakistan.",
       "isFork": false,
       "languages": [
@@ -77,7 +77,7 @@
     {
       "name": "Text-to-Braille Binary Translator",
       "createdAt": "May 2020",
-      "url": "https://github.com/mkumail1/Text-to-Braille_Binary-Translator",
+      "url": "https://github.com/socialyadept/Text-to-Braille_Binary-Translator",
       "description": "This project converts the input text into a Braille-binary code. An exlusive software for differently abled people",
       "isFork": false,
       "languages": [
@@ -91,7 +91,7 @@
       "id": "MDEwOlJlcG9zaXRvcnkyNjkwNzUwMjM=",
       "name": "Wound Analysis",
       "createdAt": "Jun 2021",
-      "url": "https://github.com/mkumail1/WoundAnalysis-CancerImages",
+      "url": "https://github.com/socialyadept/WoundAnalysis-CancerImages",
       "description": "Machine Learning model made using CNN, that analyse wound images and classfiy them to different cancer classifications",
       "isFork": false,
       "languages": [
@@ -117,7 +117,7 @@
       "id": "MDEwOlJlcG9zaXRvcnkxODIxMjk3NTQ=",
       "name": "Webcrawler",
       "createdAt": "Jan 2021",
-      "url": "https://github.com/mkumail1/webcrawler",
+      "url": "https://github.com/socialyadept/webcrawler",
       "description": "A web crawler made in python that is capable of searching a keyword upto 3 levels of a particular website including BBC, Facebook, Youtube etc.",
       "isFork": false,
       "languages": [

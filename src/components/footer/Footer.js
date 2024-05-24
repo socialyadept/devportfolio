@@ -9,7 +9,7 @@ export default function Footer(props) {
       <p className={styles["footer-text"]} style={{ color: props.theme.text }}>
         Made with <span role="img">❤️</span> by
         <a
-          href="https://www.linkedin.com/in/mkumail1/"
+          href="https://www.linkedin.com/in/socialyadept/"
           target="_blank"
           rel="noopener noreferrer"
           style={{

@@ -7,6 +7,8 @@
   position: relative;
   cursor: pointer;
   transition: transform 0.1s linear;
+  -webkit-transition: background-color 0.1s linear;
+  -ms-transition: background-color 0.1s linear;
   box-sizing: border-box;
 }
 
@@ -54,29 +56,32 @@
   font-size: 15px;
   cursor: pointer;
 }
+
 .blog-div-url:hover {
   text-decoration: underline;
 }
 
-.blog-card-div:after {
-  content: "";
-  position: absolute;
-  top: 30;
-  left: 0;
-  width: 500%;
-  height: 1000%;
-  background: #343345;
-  z-index: -1;
-  transform-origin: 0% 0%;
-  transform: translateX(calc(-130% - 0px)) translateY(10%) rotate(45deg);
-  transition: transform 0.8s ease;
+.blog-card-div:hover {
+  background-color: #343345;
+  -webkit-transition: background-color 0.1s linear;
+  -ms-transition: background-color 0.1s linear;
+  transition: background-color 0.1s linear;
 }
-.blog-card-div:hover::after {
-  transform: translateY(-100%) translateX(-50px) rotate(45deg);
-  direction: ltr;
-}
+
 .blog-card-div:hover > * {
-  color: #f7e2ee !important;
+  animation: color-change 0.2s forwards;
+}
+
+@keyframes color-change {
+  0% {
+    color: #343345;
+  }
+  50% {
+    color: #787593;
+  }
+  100% {
+    color: #f7e2ee;
+  }
 }
 
 /* Media Query */

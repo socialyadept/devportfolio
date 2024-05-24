@@ -14,25 +14,25 @@ const greeting = {
     "A full stack engineer (MERN) 💻 - Public Speaker 🎤 - Researcher 👨‍🏫",
   resumeLink:
     "https://drive.google.com/file/d/1eP9O3EAZMfRrqqTXlDFeCJkU5WjyhWYz/view?usp=sharing",
-  portfolio_repository: "https://github.com/mkumail1/therealmvp.dev",
+  portfolio_repository: "https://github.com/socialyadept/therealmvp.dev",
 };
 
 const socialMediaLinks = [
   {
     name: "Github",
-    link: "https://github.com/mkumail1",
+    link: "https://github.com/socialyadept",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/mkumail1/",
+    link: "https://www.linkedin.com/in/socialyadept/",
     fontAwesomeIcon: "fa-linkedin", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
     name: "YouTube",
-    link: "https://www.youtube.com/channel/UCdbkGxMPdxVERO0FaYGo4qg",
+    link: "https://youtube.com/@socialyadept",
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
@@ -44,19 +44,19 @@ const socialMediaLinks = [
   },
   {
     name: "Twitter",
-    link: "https://twitter.com/iamkumaail",
+    link: "https://twitter.com/socialyadept",
     fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
     backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
   },
   {
     name: "Facebook",
-    link: "https://www.facebook.com/iamkumaail",
+    link: "https://www.facebook.com/socialyadept",
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/themvpguy/",
+    link: "https://www.instagram.com/socialyadept/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
@@ -64,25 +64,25 @@ const socialMediaLinks = [
 const socialMediaLinksHome = [
   {
     name: "Github",
-    link: "https://github.com/mkumail1",
+    link: "https://github.com/socialyadept",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/mkumail1/",
+    link: "https://www.linkedin.com/in/socialyadept/",
     fontAwesomeIcon: "fa-linkedin", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
     name: "YouTube",
-    link: "https://www.youtube.com/channel/UCdbkGxMPdxVERO0FaYGo4qg",
+    link: "https://youtube.com/@socialyadept",
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
   {
     name: "Twitter",
-    link: "https://twitter.com/iamkumaail",
+    link: "https://twitter.com/socialyadept",
     fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
     backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
   },
@@ -95,7 +95,7 @@ const socialMediaLinksHome = [
 
   {
     name: "Facebook",
-    link: "https://www.facebook.com/iamkumaail",
+    link: "https://www.facebook.com/socialyadept",
     fontAwesomeIcon: "fa-facebook", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
@@ -833,6 +833,14 @@ const blogs = {
   avatar_image_path: "blogs_image.svg",
   section: [
     {
+      title: "Windows vs Mac (Mx chip) which one is better for Engineers?",
+      date: "21-01-2024",
+      text: `The recent arrival of Apple's Mx chips has sent shockwaves through the tech world, rewriting benchmark leaderboards and raising the bar for both performance and energy efficiency. However, beneath the impressive headline figures lies a more nuanced story, particularly when it comes to the needs of software engineers and data scientists.`,
+      image:
+        "https://image.shutterstock.com/image-photo/islamabad-pakistan-april-25-2019-260nw-1407461093.jpg",
+      url: "https://medium.com/@kumailrants/windows-vs-mac-mx-chip-which-one-is-better-for-engineers-c2801efbdf43",
+    },
+    {
       title: "Is Bun the Next Big Thing in Javascript ecosystem?",
       date: "12-07-2022",
       text: `As the technologies evolve, we are seeing a major paradigm shift in the Javascript's runtime ecosystem. Bun just launched their beta and has claimed some promising results.
@@ -846,15 +854,6 @@ const blogs = {
       text: `Millennium Fellowship for me is something more than an opportunity to make a social impact. It's an incubator that not only breaths life into revolutionary initiatives, but also connects me with inspiring, like-minded individuals from all walks of life.`,
       url: "https://www.millenniumfellows.org/fellow/2019/nust-pk/muhammad-kumail",
     },
-    // {
-    //   title: "My third ever blog",
-    //   date: "05-12-2022",
-    //   text: `My recommendation: Sign up for Medium using Facebook. That way all of your existing connections from Facebook who are on Medium will automatically be following your account once it's created. This saves you the trouble of having to build up a new audience entirely from scratch.
-
-    //   Regardless of the option you go with to start, you can always link your Twitter or Facebook to your Medium account later via the "Connections" tab in the Settings menu:`,
-    //   image:
-    //     "https://image.shutterstock.com/image-photo/islamabad-pakistan-april-25-2019-260nw-1407461093.jpg",
-    // },
   ],
 };
 

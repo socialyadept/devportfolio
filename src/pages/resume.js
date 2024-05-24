@@ -8,7 +8,7 @@ class Resume extends Component {
     return (
       <>
         <SEO title="Resume" descrip="Here's my resume" url="resume" />
-        <div className="div-resume">
+        <div className={styles["div-resume"]}>
           <embed
             src={`documents/kumail.pdf`}
             type="application/pdf"
