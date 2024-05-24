@@ -14,7 +14,7 @@ const greeting = {
     "A full stack engineer (MERN) 💻 - Public Speaker 🎤 - Researcher 👨‍🏫",
   resumeLink:
     "https://drive.google.com/file/d/1eP9O3EAZMfRrqqTXlDFeCJkU5WjyhWYz/view?usp=sharing",
-  portfolio_repository: "https://github.com/mkumail1/therealmvp.dev",
+  portfolio_repository: "https://github.com/socialyadept/therealmvp.dev",
 };
 
 const socialMediaLinks = [
