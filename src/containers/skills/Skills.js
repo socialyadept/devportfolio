@@ -17,8 +17,10 @@ export default function Skills(props) {
             className={styles["skills-description"]}
             style={{ color: theme.secondaryText }}
           >
-            I love to work contractually helping to growing my clients&apos;
-            business
+            I am passionate about leveraging my technical expertise to drive
+            growth and innovation for businesses in the U.S. My skillset
+            includes the latest technologies that help companies scale
+            efficiently.
             <span role="img" aria-label="hand-shake">
               🤝
             </span>
