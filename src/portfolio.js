@@ -11,7 +11,7 @@ const greeting = {
   logo_name: "Muhammad Kumail",
   nickname: "",
   subTitle:
-    "A full stack engineer (MERN) 💻 - Public Speaker 🎤 - Researcher 👨‍🏫",
+    "A full stack software engineer 💻 - Public Speaker 🎤 - Researcher 👨‍🏫",
   resumeLink:
     "https://drive.google.com/file/d/1eP9O3EAZMfRrqqTXlDFeCJkU5WjyhWYz/view?usp=sharing",
   portfolio_repository: "https://github.com/socialyadept/therealmvp.dev",
@@ -431,8 +431,22 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
+      title: "Purdue University, Indiana",
+      subtitle: "Master's in Computer Science",
+      logo_path: "purdue-logo.png",
+      alt_name: "Purdue University - Indiana",
+      duration: "January 2024 - present",
+      descriptions: [
+        "⚡ Pursuing a Master's in Computer Science at Purdue University (Northwest), gaining advanced knowledge in Software Engineering, Cloud Computing, and AI",
+        "⚡ Expanding expertise in full-stack development, cloud computing, and machine learning with hands-on experience in industry-relevant projects.",
+        "⚡ Actively involved in local tech communities, fostering innovation and collaboration within the industry.",
+        "⚡ Developing cutting-edge skills in research and problem-solving, preparing for top software engineering roles in the U.S. tech industry.",
+      ],
+      website_link: "https://www.purdue.edu/",
+    },
+    {
       title: "National University of Sciences and Technology, Islamabad",
-      subtitle: "Bachelor's in Computer Sciences",
+      subtitle: "Bachelor's in Computer Science",
       logo_path: "nust-logo.png",
       alt_name: "NUST - Islamabad",
       duration: "Sep 2018 - Aug 2022",
@@ -654,7 +668,7 @@ const experience = {
           company: "Devsinc, Islamabad",
           company_url: "https://devsinc.com/",
           logo_path: "devsinc-logo.jpeg",
-          duration: "Apr 2022 - present",
+          duration: "Apr 2022 - Dec 2023",
           location: "Islamabad / Remote",
           description: `-	Responsible for developing full-stack solutions in MERN stack, NextJs and AWS ecosystem. \n-	Communicating with clients for scrum support and building high scaled projects.\n-	Worked collaboratively with QAs, development, and business groups to complete comprehensive testing on major software release.\n-	Consistently recognized for excellent problem solving and analytical skills by stakeholders.`,
           color: "#0879bf",

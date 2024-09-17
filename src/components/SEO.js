@@ -1,10 +1,10 @@
 import Head from "next/head";
 
 const SEO = ({
-  descrip = "Muhammad Kumail (therealmvp) is a Full Stack Developer, Public Speaker, and a student mentor. Kumail is also an AWS Educate Cloud Ambassador, Microsoft Learn Student Ambassador and former Google Developers Student Club Lead at NUST",
+  descrip = "Muhammad Kumail (socialyadept) is a software engineer having expertise in Full Stack Development, Public Speaking, and a mentor. Previously Kumail has represented AWS as a Cloud Ambassador, Microsoft Learn Student Ambassador and Google Developers Student Club Lead at NUST",
   author = "MK",
   meta,
-  title = "Muhammad Kumail | TheRealMVP",
+  title = "Muhammad Kumail | Software Engineer",
   url = "",
 }) => {
   const metaData = [
@@ -59,7 +59,7 @@ const SEO = ({
       <link rel="canonical" href="https://www.muhammadkumail.com/" />
       <meta
         name="keywords"
-        content="mern, react, fullstack, developer, programmer, designer, muhammad, kumail, therealmvp, entrepreneuer, freelancer, blockchain, solidity, ethereum, polygon, metaverse, aws, cloud, azure, gcp, lambda, serverless, flutter, react native"
+        content="mern, react, software engineer, fullstack, developer, programmer, coder, designer, muhammad, kumail, therealmvp, socialyadept, tech guy, entrepreneuer, freelancer, blockchain, solidity, ethereum, polygon, metaverse, aws, cloud, azure, gcp, lambda, serverless, flutter, react native"
       />
       {metaData.map(({ name, content, property }, i) =>
         property ? (

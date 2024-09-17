@@ -10,7 +10,7 @@ class Resume extends Component {
         <SEO title="Resume" descrip="Here's my resume" url="resume" />
         <div className={styles["div-resume"]}>
           <embed
-            src={`documents/kumail.pdf`}
+            src={`documents/kumail_resume.pdf`}
             type="application/pdf"
             className={styles["embed-resume"]}
           />
