@@ -16,7 +16,7 @@ class Projects extends Component {
       <>
         <SEO
           title="Projects"
-          descrip="What's better when the projects speak for itself and explains the tech skills in a better way"
+          desc="What's better when the projects speak for itself and explains the tech skills in a better way"
           url="projects"
         />
         <div className={styles["projects-main"]}>

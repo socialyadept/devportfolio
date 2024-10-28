@@ -17,7 +17,7 @@ class Contact extends Component {
       <>
         <SEO
           title="Contact"
-          descrip="Contact Muhammad Kumail aka TheRealMVP today"
+          desc="Contact Muhammad Kumail aka TheRealMVP today"
           url="contact"
         />
         <div className={styles["contact-main"]}>

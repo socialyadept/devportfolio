@@ -14,7 +14,7 @@ class Experience extends Component {
       <>
         <SEO
           title="Experience"
-          descrip="Kumail has worked with many evolving startups as a Full Stack Developer, Designer and a Software Architect. Kumail have also worked with some well established companies as SQA Trainee. Right now he is working as a Software Engineer in the corporate world"
+          desc="Kumail has worked with many evolving startups as a Full Stack Developer, Designer and a Software Architect. Kumail have also worked with some well established companies as SQA Trainee. Right now he is working as a Software Engineer in the corporate world"
           url="experience"
         />
         <div className={styles["experience-main"]}>

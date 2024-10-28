@@ -16,7 +16,7 @@ class Education extends Component {
       <>
         <SEO
           title="Education"
-          descrip="My education history has always been an entertaining one, here's what's more about it..."
+          desc="My education history has always been an entertaining one, here's what's more about it..."
           url="education"
         />
         <div className={styles["education-main"]}>
