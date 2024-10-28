@@ -1,7 +1,7 @@
 import Head from "next/head";
 
 const SEO = ({
-  descrip = "Muhammad Kumail (socialyadept) is a software engineer having expertise in Full Stack Development, Public Speaking, and a mentor. Previously Kumail has represented AWS as a Cloud Ambassador, Microsoft Learn Student Ambassador and Google Developers Student Club Lead at NUST",
+  desc = "Muhammad Kumail (socialyadept) is a software engineer having expertise in Full Stack Development, Public Speaking, and a mentor. Previously Kumail has represented AWS as a Cloud Ambassador, Microsoft Learn Student Ambassador and Google Developers Student Club Lead at NUST",
   author = "MK",
   meta,
   title = "Muhammad Kumail | Software Engineer",
@@ -10,7 +10,7 @@ const SEO = ({
   const metaData = [
     {
       name: `description`,
-      content: descrip,
+      content: desc,
     },
     {
       property: `og:title`,
@@ -18,7 +18,7 @@ const SEO = ({
     },
     {
       property: `og:description`,
-      content: descrip,
+      content: desc,
     },
     {
       property: `og:type`,
@@ -46,7 +46,7 @@ const SEO = ({
     },
     {
       name: `twitter:description`,
-      content: descrip,
+      content: desc,
     },
     {
       property: `twitter:url`,

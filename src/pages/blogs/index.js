@@ -14,7 +14,7 @@ const BlogsComponent = ({ theme }) => {
     <>
       <SEO
         title="Blogs"
-        descrip="Wanna know more about what I write? Here's everything you would be needing to know more about me"
+        desc="Wanna know more about what I write? Here's everything you would be needing to know more about me"
         url="blogs"
       />
       <div className={styles["blogs-main"]}>
